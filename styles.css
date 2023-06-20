@@ -1,0 +1,768 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cousine', monospace;
+    /* overflow: hidden; */
+    /* outline: 1px solid green !important; */
+}
+
+
+
+/* NAVBAR */
+
+
+.topnav {
+    height: 45px;
+    background-color: rgba(255, 182, 193, 0.8);
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#LaraLogo {
+
+    height: 40px;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+
+.topnav h2 {
+    font-size: 12px;
+    padding-right: 15px;
+    color: #d6afaf;
+    font-family: cursive;
+}
+
+.topnav a {
+    float: left;
+    color: #3d1e1e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.topnav a:hover {
+    background-color: #b38787;
+    color: #a33131
+}
+
+;
+
+.topnav a:active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .active {
+    background-color: rgb(187, 139, 143);
+    color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    /* NAVBAR */
+
+
+    topnav {
+        font-size: 7px;
+        min-width: 100%;
+    }
+
+    .topnav a {
+        float: right;
+        display: block;
+        text-align: left;
+        color: #3d1e1e;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+}
+
+/* SECTION ONE (HERO Section) 'Lara Grogan - Singer/Songerwriter/Composer */
+
+
+.section1 {
+    background-color: bisque;
+    background-image: url(images/4_2doctored.jpeg);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+#LARA {
+    left: 30px;
+    padding: 40px 35px 20px 62px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E5C2C2;
+    font-size: 60px;
+}
+
+.LARAunder600 {
+    display: none;
+}
+
+#p1 {
+    color: #fff;
+    padding: 12px 35px 180px 48px;
+    font-size: 34px;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 120px;
+    padding-bottom: 80px;
+}
+
+.flex-container1>div {
+    background-color: #9D4545;
+    margin-left: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 21px;
+    border-radius: 10%;
+}
+
+.fa {
+    padding: 30px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    background-color: #b38787;
+}
+
+
+.fa-facebook {
+    color: white;
+    text-decoration: none;
+}
+
+/* .fa-facebook:hover {
+    background-color: blue;
+} */
+
+
+.fa-instagram {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-youtube {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-tiktok {
+    color: white;
+    text-decoration: none;
+}
+
+#button1 {
+    background-color: #be8e8e;
+    padding: 15px;
+    width: 150px;
+    margin: 0 0 0 182px;
+    border-radius: 5%;
+    border: none;
+    font-size: 19px;
+    text-shadow: 1px 1px #c55f9a;
+}
+
+#button1:hover {
+    background-color: #b38f8f;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+    #LARA {
+
+        font-size: 44px;
+        padding-left: 22px;
+    }
+
+    #p1 {
+        font-size: 28px;
+        padding-left: 22px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #LARA {
+
+        font-size: 44px;
+        padding-left: 22px;
+    }
+
+    #p1 {
+        font-size: 28px;
+        padding-left: 22px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    #LARA {
+        display: none;
+    }
+
+    .LARAunder600 {
+        display: block;
+        left: 30px;
+        padding: 37px 35px 20px 20px;
+        word-wrap: break-word;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #E5C2C2;
+        font-size: 34px;
+    }
+
+    #p1 {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .section1 {
+        background-position: 80% 20%;
+        height: auto;
+    }
+
+    .flex-container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 40px;
+        padding-bottom: 80px;
+    }
+
+    .flex-container1>div {
+        background-color: #9D4545;
+        margin-left: 7px;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 17px;
+        border-radius: 10%;
+    }
+
+    #button1 {
+        background-color: #be8e8e;
+        padding: 15px;
+        width: 150px;
+        margin: 0 0 0 82px;
+        border-radius: 5%;
+        border: none;
+        font-size: 19px;
+        text-shadow: 1px 1px #c55f9a;
+    }
+}
+
+
+
+
+
+
+
+/* SECTION TWO - 'The Music Experience you want to live' */
+
+.section2 {
+    background-color: #F3D6D6;
+    height: auto;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    padding-bottom: 0px;
+}
+
+.headingSection2 {
+    text-align: center;
+    padding-top: 30px;
+    height: 100px;
+    color: #9D4545;
+    font-size: 40px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 220px 0 220px;
+    line-height: 30px;
+}
+
+.imagesculpture {
+    display: block;
+    height: 440px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 4%;
+    padding: 40px;
+}
+
+.debut {
+    height: auto;
+    text-align: center;
+    font-size: 26px;
+    line-height: 64px;
+    color: #9D4545;
+    text-shadow: 2px 2px #E5C2C2;
+}
+
+.sib-form-container {
+    margin: 50px;
+}
+
+@media (max-width: 768px) {
+    .p1 {
+        text-align: center;
+        font-size: 16px;
+        padding: 45px 25px 15px;
+
+        line-height: 30px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    /* SECTION TWO */
+
+    .section2 {
+        height: auto;
+        width: 100%x;
+        /* overflow: hidden; */
+
+    }
+
+    .headingSection2 {
+        display: block;
+        height: auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        color: #9D4545;
+        font-size: 34px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .p1 {
+        text-align: center;
+        font-size: 15px;
+        padding: 35px 20px 0 20px;
+        line-height: 30px;
+    }
+
+    .imagesculpture {
+        display: block;
+        height: 340px;
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        border-radius: 4%;
+        padding: 30px;
+    }
+
+    .debut {
+
+        text-align: center;
+        font-size: 26px;
+        line-height: 64px;
+        color: #9D4545;
+        text-shadow: 2px 2px #E5C2C2;
+    }
+
+    .sib-form {
+        padding: 0;
+
+    }
+
+}
+
+
+
+/* SECTION THREE 'Stepping Stones in Lara's Musical Career' */
+
+.section3 {
+    position: relative;
+    height: auto;
+    color: black;
+    font-size: 24px;
+
+}
+
+.section3::before {
+    content: "";
+    background-image: url(images/LaraSection3.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.35;
+
+}
+
+.headingSection3A {
+    font-size: 40px;
+    opacity: 1;
+    padding: 70px 50px;
+    color: #9D4545;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+
+}
+
+.row1 {
+    display: flex;
+}
+
+.column1 {
+    flex: 50%;
+    padding: 60px 100px 60px 100px;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .row1 {
+        display: block;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .row1 {
+        display: block;
+    }
+
+}
+
+
+
+
+
+/* SECTION FOUR 'City and Its People' */
+
+.section4 {
+    height: auto;
+    background-color: #b38787;
+    font-size: 24px;
+    padding: 8px;
+
+}
+
+.headingSection4 {
+    font-size: 40px;
+    opacity: 1;
+    padding: 70px 10px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: #9D4545;
+
+}
+
+.row2 {
+    display: flex;
+}
+
+.column2 {
+    flex: 50%;
+    padding: 10px 80px 120px 80px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 24px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+
+    .row2 {
+        display: block;
+    }
+
+    iframe {
+        width: 98%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .row2 {
+        display: block;
+    }
+
+    iframe {
+        width: 98%;
+    }
+
+}
+
+
+/* SECTION FIVE - Social Media Icons */
+
+#page {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-areas:
+        "nav  main"
+        "nav  foot";
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 650px 1fr;
+    background-color: #d69d92;
+}
+
+
+
+#page>nav {
+    grid-area: nav;
+
+}
+
+.column1section5 {
+    display: flex;
+
+    padding-top: 10px;
+    padding-right: 80px;
+}
+
+.LaraAtPiano {
+
+    width: 100%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    /* padding: 60px; */
+}
+
+#page>main {
+    grid-area: main;
+    background-color: #d69d92;
+    padding-top: 0px;
+}
+
+.LaraContactText {
+    padding: 210px 150px 50px 120px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #9D4545;
+    font-family: "DM Sans", sans serif;
+    text-align: center;
+}
+
+#page>footer {
+    grid-area: foot;
+    background-color: #d69d92;
+    padding-left: 200px;
+    padding-top: 12px;
+}
+
+.LaraSMIs {
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.LaraSMIs>div {
+    background-color: #9D4545;
+
+    margin-left: 6px;
+    font-size: 21px;
+    border-radius: 10%;
+}
+
+
+.fa {
+    padding: 120px;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+
+.fa-instagram {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+
+.fa-youtube {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+
+.fa-tiktok {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+
+
+
+@media (max-width: 768px) {}
+
+@media (max-width: 600px) {
+
+    #page {
+        display: block;
+    }
+
+    .LaraContactText {
+        padding: 20px 15px;
+        font-size: 17px;
+    }
+
+    .column1section5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .LaraAtPiano {
+        margin: 20px auto;
+        /* max-width: 100%; */
+        height: auto;
+    }
+
+    .iconflex {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+/* SECTION SIX */
+
+.section6 {
+    position: relative;
+    height: auto;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section6::before {
+    content: "";
+    background-image: url(images/2019_ScreamingFieldsdoct.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.35;
+}
+
+#Showsdiv {
+    background-color: rgb(190, 153, 153);
+    padding: 100px 30px;
+}
+
+#Contactdiv {
+    background-color: rgb(190, 153, 153);
+    padding: 140px 44px;
+}
+
+.S6Para {
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.h1S6 {
+    color: #9D4545;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: "DM Sans", sans serif;
+
+}
+
+
+/* FOOTER */
+
+.divfooter {
+    background-color: #b87070;
+    line-height: 40px;
+    height: auto;
+    display: flex;
+
+}
+
+.divF1a {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+
+}
+
+.divF1b {
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+    color: rgb(107, 18, 18);
+
+}
+
+.foolink {
+    text-decoration: none;
+    color: rgb(107, 18, 18);
+
+}
+
+.foolink:hover {
+    color: rgb(236, 161, 161);
+}
+
+@media (max-width: 768px) {
+    .divfooter {
+        display: block;
+    }
+    .divF1a {
+        width: 100%; 
+    }
+    .divF1b {
+        width: 100%; 
+    }
+
+}
