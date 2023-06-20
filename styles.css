@@ -93,7 +93,7 @@
 .section1 {
     background-color: bisque;
     background-image: url(images/4_2doctored.jpeg);
-    height: auto;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,6 +118,8 @@
     padding: 12px 35px 180px 48px;
     font-size: 34px;
 }
+
+#p1alt {display: none}
 
 .flex-container1 {
     display: flex;
@@ -189,6 +191,11 @@
 }
 
 @media screen and (max-width: 1050px) {
+    .section1 {
+      
+        height: 90vh;
+    }
+   
     #LARA {
 
         font-size: 44px;
@@ -198,7 +205,10 @@
     #p1 {
         font-size: 24px;
         padding-left: 22px;
+        padding-bottom: 100px;
     }
+
+   
 
     .flex-container1 {
 
@@ -206,9 +216,24 @@
         padding-bottom: 80px;
     }
 
+    #button1 {
+ 
+        padding: 15px;
+        width: 150px;
+        margin: 0 0 0 36px;
+     
+    }
+    #p1alt {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
+
+    .section1 {
+        background-position: 10% 90%;
+    }
     #LARA {
         font-size: 44px;
         padding-left: 22px;
@@ -233,22 +258,23 @@
         word-wrap: break-word;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #E5C2C2;
-        font-size: 34px;
+        font-size: 44px;
     }
 
     #p1 {
-        display: none; 
+        display: none;
         font-size: 16px;
-   }
+    }
 
-   #p1alt {
-    color: #fff;
-    padding: 12px 35px 100px 20px;
-    font-size: 16px;
-}
+    #p1alt {
+        display: block;
+        color: #fff;
+        padding: 12px 35px 100px 20px;
+        font-size: 16px;
+    }
 
     .section1 {
-        background-position: 80% 20%;
+        background-position: 45% 55%;
         height: 80vh;
     }
 
