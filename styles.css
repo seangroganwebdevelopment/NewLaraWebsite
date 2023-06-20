@@ -196,27 +196,29 @@
     }
 
     #p1 {
-        font-size: 28px;
+        font-size: 24px;
         padding-left: 22px;
+    }
+
+    .flex-container1 {
+
+        padding-left: 20px;
+        padding-bottom: 80px;
     }
 
 }
 
 @media screen and (max-width: 768px) {
     #LARA {
-
         font-size: 44px;
         padding-left: 22px;
     }
 
     #p1 {
-        font-size: 28px;
+        font-size: 24px;
         padding-left: 22px;
     }
-
 }
-
-
 
 @media screen and (max-width: 600px) {
 
@@ -235,9 +237,15 @@
     }
 
     #p1 {
+        display: none; 
         font-size: 16px;
-        padding-left: 20px;
-    }
+   }
+
+   #p1alt {
+    color: #fff;
+    padding: 12px 35px 100px 20px;
+    font-size: 16px;
+}
 
     .section1 {
         background-position: 80% 20%;
@@ -249,7 +257,7 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 40px;
+        padding-left: 16px;
         padding-bottom: 80px;
     }
 
@@ -266,7 +274,7 @@
         background-color: #be8e8e;
         padding: 15px;
         width: 150px;
-        margin: 0 0 0 82px;
+        margin: 0 0 10px 25px;
         border-radius: 5%;
         border: none;
         font-size: 19px;
@@ -660,7 +668,7 @@ iframe {
         height: auto;
         width: 80%;
     }
-   
+
 }
 
 
@@ -719,9 +727,9 @@ iframe {
     #Showsdiv {
         padding: 40px 30px;
     }
-    
+
     #Contactdiv {
-       
+
         padding: 40px 44px;
     }
 
@@ -749,7 +757,7 @@ iframe {
     text-align: right;
     padding: 20px;
     color: rgb(107, 18, 18);
-    }
+}
 
 .foolink {
     text-decoration: none;
@@ -778,18 +786,18 @@ iframe {
 
 @media (max-width: 768px) {
 
-.foolink {
-    font-size: 14px;
-    text-align: center;
-}
+    .foolink {
+        font-size: 14px;
+        text-align: center;
+    }
 
-.divF1a {
-    text-align: center;
-}
+    .divF1a {
+        text-align: center;
+    }
 
-.divF1b {
-    font-size: 16px;
-    text-align: center;
-}
+    .divF1b {
+        font-size: 16px;
+        text-align: center;
+    }
 
 }
