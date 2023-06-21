@@ -115,7 +115,7 @@
 
 #p1 {
     color: #fff;
-    padding: 12px 35px 180px 48px;
+    padding: 12px 35px 180px 68px;
     font-size: 34px;
 }
 
@@ -180,7 +180,7 @@
     background-color: #be8e8e;
     padding: 15px;
     width: 150px;
-    margin: 0 0 0 182px;
+    margin: 0 0 0 162px;
     border-radius: 5%;
     border: none;
     font-size: 19px;
@@ -208,6 +208,7 @@
         font-size: 24px;
         padding-left: 22px;
         padding-bottom: 100px;
+     
     }
 
 
@@ -339,18 +340,18 @@
 
 .p1 {
     text-align: center;
-    font-size: 16px;
-    padding: 20px 220px 0 220px;
+    font-size: 18px;
+    padding: 20px 120px 0;
     line-height: 30px;
 }
 
 .imagesculpture {
     display: block;
-    height: 440px;
-    width: 40px;
+    height: auto;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+
     border-radius: 4%;
     padding: 40px;
 }
@@ -371,8 +372,8 @@
 @media (max-width: 768px) {
     .p1 {
         text-align: center;
-        font-size: 16px;
-        padding: 45px 25px 15px;
+        font-size: 17px;
+        padding: 45px 55px 15px;
 
         line-height: 30px;
     }
@@ -444,7 +445,7 @@
 
 .section3 {
     position: relative;
-    height: 120vh;
+    min-height: 120vh;
     color: black;
     font-size: 24px;
 
@@ -606,7 +607,7 @@ iframe {
     display: flex;
     justify-content: space-around;
 
-    padding: 0 50px 50px;
+    padding: 20px 50px 150px;
 
 
 }
@@ -619,7 +620,7 @@ iframe {
 }
 
 .LaraContactText {
-    padding: 40px 50px 50px 50px;
+    padding: 60px 50px 50px 50px;
     font-size: 28px;
     font-weight: bold;
     line-height: 35px;
@@ -685,6 +686,7 @@ iframe {
 
     #page {
         display: block;
+        height: auto;
     }
 
     .LaraContactText {
@@ -715,7 +717,7 @@ iframe {
 
 
 
-/* SECTION SIX */
+/* SECTION SIX - Shows and Contact*/
 
 .section6 {
 
@@ -768,7 +770,16 @@ iframe {
 
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    #Showsdiv {
+        padding: 90px 30px;
+    }
+
+    #Contactdiv {
+
+        padding: 60px 44px;
+    }
+}
 
 
 @media (max-width: 600px) {
