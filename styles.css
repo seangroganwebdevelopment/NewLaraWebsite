@@ -119,7 +119,7 @@
     font-size: 34px;
 }
 
-#p1alt {display: none}
+
 
 .flex-container1 {
     display: flex;
@@ -192,10 +192,10 @@
 
 @media screen and (max-width: 1050px) {
     .section1 {
-      
+
         height: 90vh;
     }
-   
+
     #LARA {
 
         font-size: 44px;
@@ -208,7 +208,7 @@
         padding-bottom: 100px;
     }
 
-   
+
 
     .flex-container1 {
 
@@ -217,15 +217,14 @@
     }
 
     #button1 {
- 
+
         padding: 15px;
         width: 150px;
         margin: 0 0 0 36px;
-     
+
     }
-    #p1alt {
-        display: none;
-    }
+
+   
 
 }
 
@@ -234,6 +233,7 @@
     .section1 {
         background-position: 10% 90%;
     }
+
     #LARA {
         font-size: 44px;
         padding-left: 22px;
@@ -261,19 +261,7 @@
         font-size: 44px;
     }
 
-    #p1 {
-        display: none;
-        font-size: 16px;
-    }
-
-    #p1alt {
-        display: block;
-        color: #fff;
-        padding: 12px 35px 100px 20px;
-        font-size: 16px;
-    }
-
-    .section1 {
+      .section1 {
         background-position: 45% 55%;
         height: 80vh;
     }
@@ -401,7 +389,7 @@
 
     .p1 {
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
         padding: 35px 20px 0 20px;
         line-height: 30px;
     }
@@ -565,63 +553,37 @@ iframe {
 /* SECTION FIVE - Social Media Icons */
 
 #page {
-    display: grid;
+    display: block;
     width: 100%;
     height: auto;
-    grid-template-areas:
-        "nav  main"
-        "nav  foot";
-    grid-template-rows: 400px 400px;
-    grid-template-columns: 650px 1fr;
     background-color: #d69d92;
 }
 
-
-
-#page>nav {
-    grid-area: nav;
-
-}
-
-.column1section5 {
+.section5flexdiv {
     display: flex;
+    justify-content: space-around;
 
-    padding-top: 10px;
-    padding-right: 80px;
+    padding: 0 50px 50px;
+
+
 }
 
 .LaraAtPiano {
-
-    /* width: 80%; */
-
+    width: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    /* padding: 60px; */
-}
-
-#page>main {
-    grid-area: main;
-    background-color: #d69d92;
-    padding-top: 0px;
+    /* margin: auto; */
+    opacity: 0.8;
 }
 
 .LaraContactText {
-    padding: 210px 150px 50px 120px;
+    padding: 40px 50px 50px 50px;
     font-size: 28px;
     font-weight: bold;
     line-height: 35px;
     color: #9D4545;
     font-family: "DM Sans", sans serif;
     text-align: center;
-}
-
-#page>footer {
-    grid-area: foot;
-    background-color: #d69d92;
-    padding-left: 200px;
-    padding-top: 12px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .LaraSMIs {
@@ -672,9 +634,11 @@ iframe {
 
 
 
-@media (max-width: 768px) {}
-
-@media (max-width: 600px) {
+@media (max-width: 950px) {
+    .section5flexdiv {
+        display: block;
+        padding: 0 50px 50px;
+    }
 
     #page {
         display: block;
@@ -682,19 +646,24 @@ iframe {
 
     .LaraContactText {
         padding: 40px 15px 30px;
-        font-size: 17px;
+        font-size: 22px;
     }
-
-
 
     .LaraAtPiano {
         margin: 30px auto;
         padding-bottom: 20px;
         /* max-width: 100%; */
         height: auto;
-        width: 80%;
-    }
+        width: 70%;
 
+        /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); */
+    }
+}
+
+@media (max-width: 600px) {
+    .LaraContactText {
+        font-size: 17px;
+    }
 }
 
 
@@ -702,6 +671,7 @@ iframe {
 /* SECTION SIX */
 
 .section6 {
+
     position: relative;
     height: auto;
     color: black;
@@ -709,18 +679,22 @@ iframe {
     text-align: center;
     display: flex;
     flex-direction: column;
+
+
 }
 
 .section6::before {
     content: "";
     background-image: url(images/2019_ScreamingFieldsdoct.jpeg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: 70% 30%;
+
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.35;
+    opacity: 0.2;
 }
 
 #Showsdiv {
@@ -747,8 +721,12 @@ iframe {
 
 }
 
+@media (max-width: 768px) {}
+
 
 @media (max-width: 600px) {
+
+
 
     #Showsdiv {
         padding: 40px 30px;
@@ -768,7 +746,6 @@ iframe {
     line-height: 40px;
     height: auto;
     display: flex;
-
 }
 
 .divF1a {
@@ -812,13 +789,19 @@ iframe {
 
 @media (max-width: 768px) {
 
+    .divfooter {
+    
+        line-height: 10px;
+    
+    }
+
     .foolink {
         font-size: 14px;
         text-align: center;
     }
 
     .divF1a {
-        text-align: center;
+        display: none; 
     }
 
     .divF1b {
