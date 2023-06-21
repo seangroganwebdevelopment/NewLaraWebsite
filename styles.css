@@ -119,7 +119,9 @@
     font-size: 34px;
 }
 
-
+#p1alt {
+    display: none
+}
 
 .flex-container1 {
     display: flex;
@@ -224,7 +226,9 @@
 
     }
 
-   
+    #p1alt {
+        display: none;
+    }
 
 }
 
@@ -261,7 +265,19 @@
         font-size: 44px;
     }
 
-      .section1 {
+    #p1 {
+        display: none;
+        font-size: 26px;
+    }
+
+    #p1alt {
+        display: block;
+        color: #fff;
+        padding: 12px 35px 100px 20px;
+        font-size: 26px;
+    }
+
+    .section1 {
         background-position: 45% 55%;
         height: 80vh;
     }
@@ -378,7 +394,7 @@
         display: block;
         height: auto;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
 
@@ -402,16 +418,17 @@
         margin-right: auto;
         width: 80%;
         border-radius: 4%;
-        padding: 30px;
+        padding: 30px 12px 40px;
     }
 
     .debut {
 
         text-align: center;
         font-size: 26px;
-        line-height: 64px;
+        line-height: 44px;
         color: #9D4545;
         text-shadow: 2px 2px #E5C2C2;
+        padding-top: 20px;
     }
 
     .sib-form {
@@ -427,7 +444,7 @@
 
 .section3 {
     position: relative;
-    height: auto;
+    height: 120vh;
     color: black;
     font-size: 24px;
 
@@ -436,7 +453,8 @@
 .section3::before {
     content: "";
     background-image: url(images/LaraSection3.jpeg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: 49% 51%;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -470,19 +488,28 @@
 
 @media (max-width: 768px) {
 
+    .section3 {
+        height: auto;
+    }
+
     .row1 {
         display: block;
     }
 
-}
-
-@media (max-width: 600px) {
-
-    .row1 {
-        display: block;
+    .column1 {
+        padding: 20px 40px 20px;
+        font-size: 14px;
     }
 
+    .s3p2 {
+        padding-bottom: 30px;
+    }
+
+
+
 }
+
+@media (max-width: 600px) {}
 
 
 
@@ -493,6 +520,7 @@
 .section4 {
     height: auto;
     background-color: #b38787;
+    background: linear-gradient(to bottom right, #b38787, #ee5757);
     font-size: 24px;
     padding: 8px;
 
@@ -523,12 +551,27 @@
 iframe {
     display: block;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 @media (max-width: 768px) {
 
+    .headingSection4 {
+        font-size: 40px;
+        padding: 40px 10px;
+
+
+    }
+
     .row2 {
         display: block;
+    }
+
+    .column2 {
+
+        padding: 10px 80px 50px;
+        font-size: 17px;
+
     }
 
     iframe {
@@ -662,7 +705,11 @@ iframe {
 
 @media (max-width: 600px) {
     .LaraContactText {
-        font-size: 17px;
+        font-size: 24px;
+    }
+
+    .LaraAtPiano {
+        width: 90%;
     }
 }
 
@@ -790,9 +837,9 @@ iframe {
 @media (max-width: 768px) {
 
     .divfooter {
-    
+
         line-height: 10px;
-    
+
     }
 
     .foolink {
@@ -801,7 +848,7 @@ iframe {
     }
 
     .divF1a {
-        display: none; 
+        display: none;
     }
 
     .divF1b {
