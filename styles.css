@@ -455,7 +455,7 @@
     content: "";
     background-image: url(images/LaraSection3.jpeg);
     /* background-size: cover; */
-    background-position: 49% 51%;
+    background-position: 49% 31%;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -520,11 +520,25 @@
 
 .section4 {
     height: auto;
-    background-color: #b38787;
-    background: linear-gradient(to bottom right, #b38787, #ee5757);
+    background-color: #704545;
+    background-image: url('images/city/__beautiful-hand-draw-city-skyline-sketch_1035-20293.avif');  
+    background-size: cover;
+    background-position: top center;
+    position: relative; 
+    isolation: isolate; 
     font-size: 24px;
     padding: 8px;
+}
 
+.section4::after {
+    content: ''; 
+    position: absolute; 
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    inset: 0; 
+    background-color: #d6afaf;
+    opacity: 0.79;
 }
 
 .headingSection4 {
@@ -743,7 +757,7 @@ iframe {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.2;
+    opacity: 0.32;
 }
 
 #Showsdiv {
