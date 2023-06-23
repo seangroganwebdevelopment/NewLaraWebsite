@@ -14,16 +14,13 @@
 .topnav {
     height: 45px;
     background-color: rgba(255, 182, 193, 0.8);
-
     overflow: hidden;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 #LaraLogo {
-
     height: 40px;
     padding-left: 15px;
     margin-right: 15px;
@@ -37,7 +34,9 @@
 }
 
 .topnav a {
-    float: left;
+    /* float: left; */
+    text-align: center;
+
     color: #3d1e1e;
     text-align: center;
     padding: 14px 16px;
@@ -48,7 +47,8 @@
 
 .topnav a:hover {
     background-color: #b38787;
-    color: #a33131
+    /* color: #a33131;  */
+    color: white;
 }
 
 ;
@@ -66,10 +66,6 @@
 
 @media screen and (max-width: 600px) {
 
-
-    /* NAVBAR */
-
-
     topnav {
         font-size: 7px;
         min-width: 100%;
@@ -84,7 +80,6 @@
         text-decoration: none;
         font-size: 15px;
     }
-
 }
 
 /* SECTION ONE (HERO Section) 'Lara Grogan - Singer/Songerwriter/Composer */
@@ -208,7 +203,7 @@
         font-size: 24px;
         padding-left: 22px;
         padding-bottom: 100px;
-     
+
     }
 
 
@@ -521,22 +516,22 @@
 .section4 {
     height: auto;
     background-color: #704545;
-    background-image: url('images/city/__beautiful-hand-draw-city-skyline-sketch_1035-20293.avif');  
+    background-image: url('images/city/__beautiful-hand-draw-city-skyline-sketch_1035-20293.avif');
     background-size: cover;
     background-position: top center;
-    position: relative; 
-    isolation: isolate; 
+    position: relative;
+    isolation: isolate;
     font-size: 24px;
     padding: 8px;
 }
 
 .section4::after {
-    content: ''; 
-    position: absolute; 
+    content: '';
+    position: absolute;
     background-size: cover;
     background-position: center;
     z-index: -1;
-    inset: 0; 
+    inset: 0;
     background-color: #d6afaf;
     opacity: 0.79;
 }
