@@ -566,6 +566,10 @@ iframe {
 
 @media (min-width: 768px) {
 
+    .section4 {
+        min-height: 120vh; 
+    }
+
     .headingSection4 {
         font-size: 40px;
         padding: 40px 10px;
@@ -583,8 +587,6 @@ iframe {
         line-height: 24px;
     }
 
-    
-
     iframe {
         width: 65%;
     }
@@ -594,38 +596,29 @@ iframe {
 /* SECTION FIVE - Social Media Icons */
 
 #page {
-    display: block;
-    width: 100%;
-    height: auto;
     background-color: #d69d92;
-}
-
-.section5flexdiv {
-    display: flex;
-    justify-content: space-around;
-
-    padding: 20px 50px 150px;
-
-
+    padding-top: 20px;
 }
 
 .LaraAtPiano {
-    width: 50%;
     display: block;
-    /* margin: auto; */
     opacity: 0.8;
+    margin: 0px auto;
+    padding: 0px;
+    width: 80%;
+    border-radius: 10%;
 }
 
 .LaraContactText {
-    padding: 60px 50px 50px 50px;
+    padding: 20px 50px 30px 50px;
     font-family: 'Coutard', serif;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 26px;
+    /* font-weight: bold; */
     line-height: 35px;
     color: #9D4545;
     font-family: "DM Sans", sans serif;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .LaraSMIs {
@@ -639,7 +632,7 @@ iframe {
 
 .LaraSMIs div {
     background-color: #9D4545;
-    margin: 10px;
+    margin: 5px;
     font-size: 21px;
     border-radius: 10%;
 }
@@ -674,44 +667,56 @@ iframe {
     padding: 14px;
 }
 
-
-
-@media (max-width: 950px) {
-    .section5flexdiv {
-        display: block;
-        padding: 0 50px 50px;
+@media (min-width: 600px) {
+    .LaraAtPiano {
+        width: 60%; 
     }
+}
 
-    #page {
-        display: block;
-        height: auto;
+@media (min-width: 768px) {
+
+    .section5flexdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 50px 50px;
+       
     }
 
     .LaraContactText {
-        padding: 40px 15px 30px;
         font-size: 22px;
     }
 
     .LaraAtPiano {
-        margin: 0px auto;
-        padding: 20px 0;
-        /* max-width: 100%; */
-        height: auto;
-        width: 70%;
-
-        /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); */
+        width: 50%;
+        /* height: auto; */
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 240px; 
     }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 950px) {
     .LaraContactText {
+       
+        padding-left: 180px; 
+        padding-right: 180px; 
+    }
+
+    #page {
+        display: block;
+       
+    }
+
+    .LaraContactText {
+        padding: 40px 115px 40px;
         font-size: 24px;
     }
 
-    .LaraAtPiano {
-        width: 90%;
-    }
+
 }
+
+
 
 
 
@@ -726,8 +731,6 @@ iframe {
     text-align: center;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .section6::before {
@@ -751,13 +754,13 @@ iframe {
 
 #Contactdiv {
     background-color: rgb(190, 153, 153);
-    padding: 140px 44px;
+    padding: 60px 44px;
 }
 
 .S6Para {
     margin-top: 30px;
     line-height: 30px;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .h1S6 {
@@ -768,32 +771,14 @@ iframe {
 
 }
 
-@media (max-width: 768px) {
-    #Showsdiv {
-        padding: 90px 30px;
+/* @media (min-width: 960px) {
+    .section6 {
+        min-height: 100vh;
     }
-
-    #Contactdiv {
-
-        padding: 60px 44px;
-    }
-}
-
-
-@media (max-width: 600px) {
+} */
 
 
 
-    #Showsdiv {
-        padding: 40px 30px;
-    }
-
-    #Contactdiv {
-
-        padding: 40px 44px;
-    }
-
-}
 
 /* FOOTER */
 
