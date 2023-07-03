@@ -9,6 +9,50 @@
     /* outline: 1px solid green !important; */
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+/* || VARIABLES */
+
+/* COLOURS */
+
+:root {
+    /* COLOUR PALETTE:  */
+    --COLOR-ONE: #f07575;
+    --COLOR-TWO: #ecc2c2;
+    --COLOR-THREE: #f5d5d5;
+    --COLOR-FOUR: #eca3a3;
+    --COLOR-FIVE: #f7b3b3;
+    --COLOR-SIX: #833434;
+    --COLOR-SEVEN: #333;
+
+    --COLOR-TEXT: #4e2020;
+    --COLOR-TEXT2: #fff;
+}
+
+.dark-mode {
+    --COLOR-ONE: #5a99e2;
+    --COLOR-TWO: #97cceb;
+    --COLOR-THREE: #a3e8f1;
+    --COLOR-FOUR: #a3cbec;
+    --COLOR-FIVE: #c5ebe2;
+    --COLOR-SIX: #7e7cec;
+    --COLOR-SEVEN: #333333;
+}
+
+.green-mode {
+    --COLOR-ONE: #80e25a;
+    --COLOR-TWO: #44865d;
+    --COLOR-THREE: #79b47e;
+    --COLOR-FOUR: #17e44b;
+    --COLOR-FIVE: #58975b;
+    --COLOR-SIX: #6ac57e;
+    --COLOR-SEVEN: #17a71e;
+}
+
 /* NAVBAR */
 
 .topnav {
@@ -304,17 +348,37 @@
 }
 
 
+/* ------------------------------------------- */
+
 /* SECTION TWO - 'The Music Experience you want to live' */
 
 
 .section2 {
 
-    background-color: #F3D6D6;
-    height: auto;
-    width: 100%;
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    background-color: hsl(0, 55%, 90%);
+    background-image: url('images/patterns/eugene-golovesov-9XnldxAo178-unsplash.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 20%; */
+   
+    
     padding-bottom: 0px;
+
+    position: relative; 
+    isolation: isolate;
+}
+
+.section2:after {
+    content: "";
+    position: absolute; 
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    inset: 0;
+    background-color: var(--COLOR-THREE);
+    opacity: 0.9;
+    
 }
 
 .headingSection2 {
@@ -329,6 +393,11 @@
     font-size: 30px;
     font-family: 'DM Sans', sans-serif;
 }
+
+/* .sib-form {
+    background-color: black; 
+} */
+
 
 .p1 {
     text-align: center;
@@ -405,6 +474,10 @@
 }
 
 @media (min-width: 768px) {
+
+    .section2 {
+        height: 110vh; 
+    }
     .p1 {
         font-size: 22px;
         padding: 55px 120px 0 120px;
@@ -420,23 +493,29 @@
     }
 }
 
+/* ------------------------------------------- */
 
 /* SECTION THREE 'Stepping Stones in Lara's Musical Career' */
 
 .section3 {
-    position: relative;
+
     height: auto;
     color: black;
     font-size: 24px;
+    position: relative;
+    isolation: isolate;
 
 }
 
 .section3::before {
     content: "";
+    position: absolute;
     background-image: url(images/LaraSection3.jpeg);
     background-size: cover;
     background-position: 49% 31%;
-    position: absolute;
+    z-index: -1;
+    inset: 0;
+
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -497,7 +576,7 @@
 
 }
 
-
+/* ------------------------------------------- */
 
 
 /* SECTION FOUR 'City and Its People' */
@@ -567,7 +646,7 @@ iframe {
 @media (min-width: 768px) {
 
     .section4 {
-        min-height: 120vh; 
+        min-height: 120vh;
     }
 
     .headingSection4 {
@@ -595,10 +674,29 @@ iframe {
 
 /* SECTION FIVE - Social Media Icons */
 
-#page {
+.section5 {
     background-color: #d69d92;
     padding-top: 20px;
+    background-image: url('images/castleWalls/john-salzarulo-njM4it9erx4-unsplash.jpg');
+    background-size: cover; 
+    background-position: center;
+    position: relative; 
+    isolation: isolate; 
 }
+
+.section5::after {
+    content: "";
+    position: absolute; 
+    background-size: cover; 
+    background-position: center;
+    z-index: -1;
+    inset: 0;
+    background-color: var(--COLOR-THREE);
+    opacity: 0.8; 
+    
+}
+
+
 
 .LaraAtPiano {
     display: block;
@@ -669,7 +767,7 @@ iframe {
 
 @media (min-width: 600px) {
     .LaraAtPiano {
-        width: 60%; 
+        width: 60%;
     }
 }
 
@@ -680,7 +778,7 @@ iframe {
         justify-content: center;
         align-items: center;
         padding: 50px 50px 50px;
-       
+
     }
 
     .LaraContactText {
@@ -692,20 +790,20 @@ iframe {
         /* height: auto; */
         margin-left: auto;
         margin-right: auto;
-        min-height: 240px; 
+        min-height: 240px;
     }
 }
 
 @media (min-width: 950px) {
     .LaraContactText {
-       
-        padding-left: 180px; 
-        padding-right: 180px; 
+
+        padding-left: 180px;
+        padding-right: 180px;
     }
 
-    #page {
+    .section5 {
         display: block;
-       
+
     }
 
     .LaraContactText {
@@ -735,15 +833,16 @@ iframe {
 
 .section6::before {
     content: "";
+    position: absolute;
     background-image: url(images/2019_ScreamingFieldsdoct.jpeg);
     /* background-size: cover; */
     background-position: 70% 30%;
 
-    position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
+
     opacity: 0.32;
 }
 
