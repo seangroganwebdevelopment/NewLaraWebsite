@@ -13,26 +13,31 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-  }
+}
 
 /* || VARIABLES */
 
-/* --- COLOUR PALETTE |||  */
+/* --- COLOUR PALETTE(s) |||  */
 
 :root {
-    --COLOR-ONE: #f07575;
-    --COLOR-TWO: #ecc2c2;
-    --COLOR-THREE: #f5d5d5;
-    --COLOR-FOUR: #eca3a3;
-    --COLOR-FIVE: #f7b3b3;
-    --COLOR-SIX: #833434;
-    --COLOR-SEVEN: #333;
+    /* BRONZE:  */
+    --COLOR-ONE: #967444;
+    /* SHADES AND VARIATIONS OF BRONZE */
+    --COLOR-TWO: #574327;
+    --COLOR-THREE: #e3af66;
+    --COLOR-FOUR: #A37E49;
+    --COLOR-FIVE: #7D6038;
+    /* COMPLEMENTARY COLORS TO BRONZE */
+    --COLOR-SIX: #4A361A;
+    --COLOR-SEVEN: #E3B87D;
+    --COLOR-EIGHT: #12354A; 
+    --COLOR-NINE: #447796; 
 
     --COLOR-TEXT: #4e2020;
     --COLOR-TEXT2: #fff;
 }
 
-.pinkmode {  
+.pinkmode {
     --COLOR-ONE: #f07575;
     --COLOR-TWO: #ecc2c2;
     --COLOR-THREE: #f5d5d5;
@@ -69,7 +74,7 @@ img {
 /* --- FONT PALETTE |||  */
 
 :root {
-    --FONT-ONE: 
+    --FONT-ONE:
 }
 
 
@@ -81,7 +86,7 @@ img {
     font-size: 7px;
     min-width: 100%;
     height: 45px;
-    background-color: rgba(255, 182, 193, 0.8);
+    background-color: var(--COLOR-THREE);
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -97,7 +102,7 @@ img {
 .topnav h2 {
     font-size: 12px;
     padding-right: 15px;
-    color: #d6afaf;
+    color: var(--COLOR-ONE);
     font-family: cursive;
 }
 
@@ -105,7 +110,7 @@ img {
     float: right;
     display: block;
     text-align: left;
-    color: #3d1e1e;
+    color: var(--COLOR-TEXT);
     text-align: center;
     text-decoration: none;
     font-size: 15px;
@@ -115,7 +120,7 @@ img {
     /* float: left; */
     text-align: center;
 
-    color: #3d1e1e;
+    color: var(--COLOR-TEXT);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -124,20 +129,20 @@ img {
 
 
 .topnav a:hover {
-    background-color: #b38787;
+    background-color: var(--COLOR-SEVEN);
     /* color: #a33131;  */
     color: white;
 }
 
 
 .topnav a:active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: var(--COLOR-NINE);
+    color: var(--COLOR-TEXT2);
 }
 
 .topnav .active {
-    background-color: rgb(187, 139, 143);
-    color: white;
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-TEXT);
 }
 
 
@@ -147,13 +152,13 @@ img {
 
 
 .section1 {
-    background-color: bisque;
+    background-color: var(--COLOR-FIVE);
     background-image: url(images/4_2doctored.jpeg);
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: var(--COLOR-TEXT2);
 
 }
 
@@ -161,7 +166,7 @@ img {
     left: 30px;
     padding: 40px 35px 20px 62px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #E5C2C2;
+    color: var(--COLOR-THREE);
     font-size: 60px;
 }
 
@@ -170,7 +175,7 @@ img {
 }
 
 #p1 {
-    color: #fff;
+    color: var(--COLOR-SEVEN);
     padding: 12px 35px 180px 68px;
     font-size: 34px;
 }
@@ -189,7 +194,7 @@ img {
 }
 
 .flex-container1>div {
-    background-color: #9D4545;
+    background-color: var(--COLOR-ONE);
     margin-left: 7px;
     padding-left: 3px;
     padding-right: 3px;
@@ -203,12 +208,12 @@ img {
 }
 
 .fa:hover {
-    background-color: #b38787;
+    background-color: var(--COLOR-NINE);
 }
 
 
 .fa-facebook {
-    color: white;
+    color: var(--COLOR-TEXT2);
     text-decoration: none;
 }
 
@@ -218,33 +223,33 @@ img {
 
 
 .fa-instagram {
-    color: white;
+    color: var(--COLOR-TEXT2);
     text-decoration: none;
 }
 
 .fa-youtube {
-    color: white;
+    color: var(--COLOR-TEXT2);
     text-decoration: none;
 }
 
 .fa-tiktok {
-    color: white;
+    color: var(--COLOR-TEXT2);
     text-decoration: none;
 }
 
 #button1 {
-    background-color: #be8e8e;
+    background-color: var(--COLOR-SEVEN);
     padding: 15px;
     width: 150px;
     margin: 0 0 0 162px;
     border-radius: 5%;
     border: none;
     font-size: 19px;
-    text-shadow: 1px 1px #c55f9a;
+    text-shadow: 1px 1px var(--COLOR-FOUR);
 }
 
 #button1:hover {
-    background-color: #b38f8f;
+    background-color: var(--COLOR-NINE);
     cursor: pointer;
 }
 
@@ -318,7 +323,7 @@ img {
         padding: 37px 35px 20px 20px;
         word-wrap: break-word;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #E5C2C2;
+        color: var(--COLOR-SEVEN);
         font-size: 44px;
     }
 
@@ -329,7 +334,7 @@ img {
 
     #p1alt {
         display: block;
-        color: #fff;
+        color: var(--COLOR-TEXT2);
         padding: 12px 35px 100px 20px;
         font-size: 26px;
     }
@@ -349,7 +354,7 @@ img {
     }
 
     .flex-container1>div {
-        background-color: #9D4545;
+        background-color: var(--COLOR-FOUR);
         margin-left: 7px;
         padding-left: 3px;
         padding-right: 3px;
@@ -358,14 +363,14 @@ img {
     }
 
     #button1 {
-        background-color: #be8e8e;
+        background-color: var(--COLOR-THREE);
         padding: 15px;
         width: 150px;
         margin: 0 0 10px 25px;
         border-radius: 5%;
         border: none;
         font-size: 19px;
-        text-shadow: 1px 1px #c55f9a;
+        text-shadow: 1px 1px var(--COLOR-FOUR);
     }
 }
 
@@ -377,30 +382,30 @@ img {
 
 .section2 {
 
-    background-color: hsl(0, 55%, 90%);
+    background-color: var(--COLOR-SEVEN);
     background-image: url('images/patterns/eugene-golovesov-9XnldxAo178-unsplash.jpg');
-    
+
     background-size: cover;
     background-position: center;
     /* border-radius: 20%; */
-   
-    
+
+
     padding-bottom: 0px;
 
-    position: relative; 
+    position: relative;
     isolation: isolate;
 }
 
 .section2:after {
     content: "";
-    position: absolute; 
+    position: absolute;
     background-size: cover;
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: var(--COLOR-THREE);
+    background-color: var(--COLOR-SEVEN);
     opacity: 0.9;
-    
+
 }
 
 .headingSection2 {
@@ -411,7 +416,7 @@ img {
     padding-left: 40px;
     padding-right: 40px;
 
-    color: #9D4545;
+    color: var(--COLOR-SIX);
     font-size: 30px;
     font-family: 'DM Sans', sans-serif;
 }
@@ -490,7 +495,6 @@ img {
 
     .sib-form {
         padding: 0;
-
     }
 
 }
@@ -498,8 +502,9 @@ img {
 @media (min-width: 768px) {
 
     .section2 {
-        height: 110vh; 
+        height: 110vh;
     }
+
     .p1 {
         font-size: 22px;
         padding: 55px 120px 0 120px;
@@ -522,7 +527,7 @@ img {
 .section3 {
 
     height: auto;
-    color: black;
+    color: var(--COLOR-EIGHT);
     font-size: 24px;
     position: relative;
     isolation: isolate;
@@ -549,7 +554,7 @@ img {
     font-size: 40px;
     opacity: 1;
     padding: 70px 50px 40px;
-    color: #9D4545;
+    color: var(--COLOR-FIVE);
     font-family: 'DM Sans', sans-serif;
     text-align: center;
 }
@@ -622,7 +627,7 @@ img {
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: #d6afaf;
+    background-color: var(--COLOR-SEVEN);
     opacity: 0.79;
 }
 
@@ -632,7 +637,7 @@ img {
     padding: 70px 10px 50px;
     font-family: 'DM Sans', sans-serif;
     text-align: center;
-    color: #9D4545;
+    color: var(--COLOR-FOUR);
 
 }
 
@@ -697,25 +702,25 @@ iframe {
 /* SECTION FIVE - Social Media Icons */
 
 .section5 {
-    background-color: #d69d92;
+   
     padding-top: 20px;
     background-image: url('images/castleWalls/john-salzarulo-njM4it9erx4-unsplash.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
-    position: relative; 
-    isolation: isolate; 
+    position: relative;
+    isolation: isolate;
 }
 
 .section5::after {
     content: "";
-    position: absolute; 
-    background-size: cover; 
+    position: absolute;
+    background-size: cover;
     background-position: center;
     z-index: -1;
     inset: 0;
     background-color: var(--COLOR-THREE);
-    opacity: 0.8; 
-    
+    opacity: 0.8;
+
 }
 
 
@@ -735,7 +740,7 @@ iframe {
     font-size: 26px;
     /* font-weight: bold; */
     line-height: 35px;
-    color: #9D4545;
+    color: var(--COLOR-FIVE);
     font-family: "DM Sans", sans serif;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -751,7 +756,7 @@ iframe {
 }
 
 .LaraSMIs div {
-    background-color: #9D4545;
+    background-color: var(--COLOR-FOUR);
     margin: 5px;
     font-size: 21px;
     border-radius: 10%;
@@ -764,25 +769,25 @@ iframe {
 }
 
 .fa-facebook {
-    color: white;
+    color: var(--COLOR-TEXT2);
     text-decoration: none;
     padding: 14px;
 }
 
 .fa-instagram {
-    color: white;
+    color: var(--COLOR-TEXT2);
     text-decoration: none;
     padding: 14px;
 }
 
 .fa-youtube {
-    color: white;
+    color: var(--COLOR-TEXT2);
     text-decoration: none;
     padding: 14px;
 }
 
 .fa-tiktok {
-    color: white;
+    color: var(--COLOR-TEXT2);
     text-decoration: none;
     padding: 14px;
 }
@@ -832,11 +837,7 @@ iframe {
         padding: 40px 115px 40px;
         font-size: 24px;
     }
-
-
 }
-
-
 
 
 
@@ -846,7 +847,7 @@ iframe {
 
     position: relative;
     height: auto;
-    color: black;
+    color: var(--COLOR-TEXT);
     font-size: 24px;
     text-align: center;
     display: flex;
@@ -869,12 +870,12 @@ iframe {
 }
 
 #Showsdiv {
-    background-color: rgb(190, 153, 153);
+    background-color: var(--COLOR-THREE);
     padding: 100px 30px;
 }
 
 #Contactdiv {
-    background-color: rgb(190, 153, 153);
+    background-color: var(--COLOR-THREE);
     padding: 60px 44px;
 }
 
@@ -885,7 +886,7 @@ iframe {
 }
 
 .h1S6 {
-    color: #9D4545;
+    color: var(--COLOR-EIGHT);
     font-weight: bold;
     font-size: 42px;
     font-family: "DM Sans", sans serif;
@@ -904,7 +905,7 @@ iframe {
 /* FOOTER */
 
 .divfooter {
-    background-color: #b87070;
+    background-color: var(--COLOR-FIVE);
     line-height: 40px;
     height: auto;
     display: flex;
@@ -921,7 +922,7 @@ iframe {
     width: 50%;
     text-align: right;
     padding: 20px;
-    color: rgb(107, 18, 18);
+    color: var(--COLOR-TEXT2);
 }
 
 .foolink {
@@ -931,7 +932,7 @@ iframe {
 }
 
 .foolink:hover {
-    color: rgb(236, 161, 161);
+    color: var(--COLOR-SEVEN);
 }
 
 @media (max-width: 768px) {
