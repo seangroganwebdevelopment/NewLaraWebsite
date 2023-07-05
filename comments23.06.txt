@@ -1,10 +1,38 @@
-Ed Sheeran 
-- sticky header NAVBAR
+GENERAL 
+
+- Color pallet - https://colorcodes.io/brown/bronze-color-codes/
+- full screen 100vh for all sections    
+
+
+NAVBAR
+
+- sticky header NAVBAR (like Ed Sheeran)
 - links to different section of webpage
 
-Hero Section 
+HERO SECTION
 - maybe add latest release
+- written text appearing like Taylor Swift
+- add social media icons to navbar
+- at around 600px hero image reposition
 
 color palette change
 
-https://colorcodes.io/brown/bronze-color-codes/
+Taylor Swift paint as background-image for header 
+
+CITY AND ITS PEOPLE 
+- change to What was Mine
+
+SOCIAL MEDIA ICONS
+
+- Reconsider section
+- Laufey social media section 
+- change image of piano player 
+- think of what content for this section
+- maybe copy Laufey social media section 
+
+SHOWS AND Contact
+
+- change image 
+
+
+

@@ -17,10 +17,22 @@ img {
 
 /* || VARIABLES */
 
-/* COLOURS */
+/* --- COLOUR PALETTE |||  */
 
 :root {
-    /* COLOUR PALETTE:  */
+    --COLOR-ONE: #f07575;
+    --COLOR-TWO: #ecc2c2;
+    --COLOR-THREE: #f5d5d5;
+    --COLOR-FOUR: #eca3a3;
+    --COLOR-FIVE: #f7b3b3;
+    --COLOR-SIX: #833434;
+    --COLOR-SEVEN: #333;
+
+    --COLOR-TEXT: #4e2020;
+    --COLOR-TEXT2: #fff;
+}
+
+.pinkmode {  
     --COLOR-ONE: #f07575;
     --COLOR-TWO: #ecc2c2;
     --COLOR-THREE: #f5d5d5;
