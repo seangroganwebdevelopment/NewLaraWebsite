@@ -25,7 +25,8 @@ img {
     --COLOR-THREE: #f5d5d5;
     --COLOR-FOUR: #eca3a3;
     --COLOR-FIVE: #f7b3b3;
-    --COLOR-SIX: #833434;
+    --COLOR-SIX: #BC9371; 
+    /* --COLOR-SIX: #833434; */
     --COLOR-SEVEN: #333;
 
     --COLOR-TEXT: #4e2020;
@@ -528,7 +529,7 @@ nav {
     font-size: 40px;
     opacity: 1;
     padding: 70px 50px 40px;
-    color: var(--COLOR-FIVE);
+    color: var(--COLOR-SIX);
     font-family: 'DM Sans', sans-serif;
     text-align: center;
 }
@@ -601,7 +602,7 @@ nav {
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: var(--COLOR-SEVEN);
+    background-color: var(--COLOR-THREE);
     opacity: 0.79;
 }
 
@@ -611,7 +612,7 @@ nav {
     padding: 70px 10px 50px;
     font-family: 'DM Sans', sans-serif;
     text-align: center;
-    color: var(--COLOR-FOUR);
+    color: var(--COLOR-SIX);
 }
 
 .column2 {
@@ -678,7 +679,7 @@ iframe {
 .section5 {
 
     padding-top: 20px;
-    background-image: url('images/castleWalls/john-salzarulo-njM4it9erx4-unsplash.jpg');
+    background-image: url('images/castleWalls/petr-sidorov-UQ174knzj54-unsplash.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -693,7 +694,7 @@ iframe {
     z-index: -1;
     inset: 0;
     background-color: var(--COLOR-THREE);
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .LaraAtPiano {
@@ -711,7 +712,7 @@ iframe {
     font-size: 26px;
     /* font-weight: bold; */
     line-height: 35px;
-    color: var(--COLOR-FIVE);
+    color: var(--COLOR-SIX);
     font-family: "DM Sans", sans serif;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -727,7 +728,7 @@ iframe {
 }
 
 .LaraSMIs div {
-    background-color: var(--COLOR-FOUR);
+    background-color: var(--COLOR-SIX);
     margin: 5px;
     font-size: 21px;
     border-radius: 10%;
