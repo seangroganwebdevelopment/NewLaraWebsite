@@ -77,9 +77,7 @@ img {
     --FONT-ONE:
 }
 
-
-
-
+/* --------------------------------------------- */
 /* NAVBAR */
 
 nav {
@@ -90,13 +88,9 @@ nav {
     overflow: hidden;
 }
 
-
-
 .topnav ul {
     display: none;
 }
-
-
 
 #LaraLogo {
     display: block;
@@ -104,10 +98,6 @@ nav {
     padding-left: 15px;
     margin-right: 15px;
 }
-
-
-
-
 
 
 
@@ -136,6 +126,8 @@ nav {
     }
 }
 
+/* --------------------------------------------- */
+
 /* SECTION ONE (HERO Section) 'Lara Grogan - Singer/Songerwriter/Composer */
 
 
@@ -147,7 +139,6 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--COLOR-TEXT2);
-
 }
 
 #LARA {
@@ -243,7 +234,6 @@ nav {
 
 @media screen and (max-width: 1050px) {
     .section1 {
-
         height: 90vh;
     }
 
@@ -257,10 +247,7 @@ nav {
         font-size: 24px;
         padding-left: 22px;
         padding-bottom: 100px;
-
     }
-
-
 
     .flex-container1 {
 
@@ -273,7 +260,6 @@ nav {
         padding: 15px;
         width: 150px;
         margin: 0 0 0 36px;
-
     }
 
     #p1alt {
@@ -420,7 +406,6 @@ nav {
     padding: 35px 35px 0 35px;
     line-height: 28px;
 }
-
 
 /* .imagesculpture {
     display: block;
@@ -626,7 +611,6 @@ nav {
     font-family: 'DM Sans', sans-serif;
     text-align: center;
     color: var(--COLOR-FOUR);
-
 }
 
 .column2 {
@@ -645,7 +629,6 @@ iframe {
 }
 
 
-
 @media (min-width: 600px) {
 
     .row2 {
@@ -655,7 +638,6 @@ iframe {
     iframe {
         width: 78%;
     }
-
 }
 
 @media (min-width: 768px) {
@@ -687,6 +669,9 @@ iframe {
 }
 
 
+
+/* --------------------------------------------- */
+
 /* SECTION FIVE - Social Media Icons */
 
 .section5 {
@@ -708,10 +693,7 @@ iframe {
     inset: 0;
     background-color: var(--COLOR-THREE);
     opacity: 0.8;
-
 }
-
-
 
 .LaraAtPiano {
     display: block;
@@ -793,7 +775,6 @@ iframe {
         justify-content: center;
         align-items: center;
         padding: 50px 50px 50px;
-
     }
 
     .LaraContactText {
@@ -832,7 +813,6 @@ iframe {
 /* SECTION SIX - Shows and Contact*/
 
 .section6 {
-
     position: relative;
     height: auto;
     color: var(--COLOR-TEXT);
@@ -888,7 +868,7 @@ iframe {
 } */
 
 
-
+/* --------------------------------------------- */
 
 /* FOOTER */
 
@@ -903,7 +883,6 @@ iframe {
     width: 50%;
     text-align: left;
     padding: 20px;
-
 }
 
 .divF1b {
@@ -916,7 +895,6 @@ iframe {
 .foolink {
     text-decoration: none;
     color: rgb(107, 18, 18);
-
 }
 
 .foolink:hover {
@@ -935,15 +913,12 @@ iframe {
     .divF1b {
         width: 100%;
     }
-
 }
 
 @media (max-width: 768px) {
 
     .divfooter {
-
         line-height: 10px;
-
     }
 
     .foolink {
@@ -959,5 +934,9 @@ iframe {
         font-size: 16px;
         text-align: center;
     }
-
 }
+
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* --------------------------------------------- */
+/* END  */
