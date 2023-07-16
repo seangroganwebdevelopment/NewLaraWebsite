@@ -3,3 +3,13 @@
 - how to direct to email from a link
 
 - HERO Section. Change to mobile first, from 600px up!
+
+- combine colors, find lighter shades of main brown color
+
+- check colors in different sections
+
+- no pink
+
+- Section 'City and Its People': add sent section (What was mine), add title 'New Music Release' under put 'What was Mine' and 'City and Its People'
+
+- 
