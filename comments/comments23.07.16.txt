@@ -1,2 +1,5 @@
 - change logo colours and site icon in tab
 
+- how to direct to email from a link
+
+- HERO Section. Change to mobile first, from 600px up!
