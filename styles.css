@@ -160,7 +160,7 @@ nav h1 {
 /* SECTION ONE (HERO Section) 'Lara Grogan - Singer/Songerwriter/Composer */
 
 .section1 {
-    background-color: var(--COLOR-FIVE);
+    /* background-color: var(--COLOR-FIVE); */
     background-image: url(images/4_2doctored.jpeg);
     height: 80vh;
     background-position: 45% 55%;
@@ -172,12 +172,13 @@ nav h1 {
 
 #LARA {
     display: block;
+    height: 100px; 
     left: 30px;
-    padding: 37px 35px 20px 20px;
+    padding: 37px 35px 80px 20px;
     word-wrap: break-word;
     font-family: var(--FONT-TWO);
     color: var(--COLOR-EIGHT);
-    font-size: 44px;
+    font-size: 50px;
 }
 
 #p1 {
@@ -216,6 +217,11 @@ nav h1 {
     text-shadow: 1px 1px var(--COLOR-FOUR);
 }
 
+#button1:hover {
+    background-color: var(--COLOR-TWO);
+    cursor: pointer;
+}
+
 .fa {
     padding: 30px;
     text-decoration: none;
@@ -250,10 +256,7 @@ nav h1 {
     text-decoration: none;
 }
 
-#button1:hover {
-    background-color: var(--COLOR-TWO);
-    cursor: pointer;
-}
+
 
 @media screen and (min-width: 600px) {
 
@@ -263,7 +266,7 @@ nav h1 {
     }
 
     #LARA {
-        font-size: 44px;
+        font-size: 64px;
         padding-left: 22px;
     }
 
@@ -280,7 +283,7 @@ nav h1 {
     }
 
     #LARA {
-        font-size: 44px;
+     
         padding-left: 22px;
     }
 
@@ -298,14 +301,22 @@ nav h1 {
     }
 
     .flex-container1 {
-        padding-left: 20px;
+        padding-left: 90px;
         padding-bottom: 80px;
     }
 
     #button1 {
         padding: 15px;
         width: 150px;
-        margin: 0 0 0 36px;
+        margin: 0 0 0 120px;
+    }
+
+    #LARA {
+        padding-left: 90px; 
+    }
+
+    #p1 {
+        padding-left: 90px; 
     }
 }
 
