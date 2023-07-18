@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Coustard&family=Gentium+Book+Plus&family=Indie+Flower&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
 
 * {
     margin: 0;
@@ -92,6 +95,10 @@ img {
 :root {
     --FONT-ONE: Arial, sans-serif;
     --FONT-TWO: 'Sacramento', cursive;
+    --FONT-THREE: 'Times New Roman', serif; 
+    --FONT-FOUR: 'Norican', cursive;
+    --FONT-FIVE: 'Homemade Apple', cursive; 
+    --FONT-SIX:  'Mrs Saint Delafield', cursive;
 }
 
 /* --------------------------------------------- */
@@ -100,35 +107,28 @@ img {
 nav {
     font-size: 7px;
     min-width: 100%;
-    height: 65px;
+    height: 30px;
     background-color: var(--COLOR-SIX);
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-}
-
-#LaraLogo {
-    display: inline;
-    height: 40px;
-    padding-left: 15px;
-    margin-right: 15px;
-    position: right;
-
 }
 
 nav h1 {
     display: inline;
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+    color: var(--COLOR-EIGHT);
+    font-family: 'Sacramento', cursive;
     text-shadow: 2px 2px 4px gray  ;
 }
 
 .topnav ul {
     display: none;
 }
+
 
 @media screen and (min-width: 960px) {
 
@@ -156,7 +156,6 @@ nav h1 {
 }
 
 
-
 /* --------------------------------------------- */
 
 /* SECTION ONE (HERO Section) 'Lara Grogan - Singer/Songerwriter/Composer */
@@ -180,9 +179,9 @@ nav h1 {
     word-wrap: break-word;
     font-family: var(--FONT-TWO);
     color: var(--COLOR-EIGHT);
-    font-family: 'Sacramento', cursive;
+  
     font-size: 40px;
-    text-shadow: 1px 1px 0px gray; 
+    text-shadow: 2px 2px 12px var(--COLOR-SEVEN); 
 }
 
 #LARA .large {
@@ -195,6 +194,7 @@ nav h1 {
     padding-left: 22px;
     padding-bottom: 100px;
     color: var(--COLOR-EIGHT);
+    text-shadow: 1px 1px 1px var(--COLOR-SEVEN); 
 }
 
 .flex-container1 {
@@ -215,22 +215,6 @@ nav h1 {
     border-radius: 10%;
 }
 
-#button1 {
-    background-color: var(--COLOR-SIX);
-    padding: 15px;
-    width: 150px;
-    margin: 0 0 10px 25px;
-    border-radius: 5%;
-    border: none;
-    font-size: 19px;
-    text-shadow: 1px 1px var(--COLOR-FOUR);
-}
-
-#button1:hover {
-    background-color: var(--COLOR-TWO);
-    cursor: pointer;
-}
-
 .fa {
     padding: 30px;
     text-decoration: none;
@@ -245,11 +229,6 @@ nav h1 {
     text-decoration: none;
 }
 
-/* .fa-facebook:hover {
-    background-color: blue;
-} */
-
-
 .fa-instagram {
     color: var(--COLOR-TEXT2);
     text-decoration: none;
@@ -263,6 +242,24 @@ nav h1 {
 .fa-tiktok {
     color: var(--COLOR-TEXT2);
     text-decoration: none;
+}
+
+#button1 {
+    background-color: var(--COLOR-SIX);
+    padding: 15px;
+    width: 150px;
+    margin: 0 0 10px 25px;
+
+    border-radius: 5%;
+    border: none;
+    font-size: 19px;
+    font-family: var(--FONT-THREE);
+    text-shadow: 1px 1px var(--COLOR-FOUR);
+}
+
+#button1:hover {
+    background-color: var(--COLOR-EIGHT);
+    cursor: pointer;
 }
 
 
@@ -292,7 +289,6 @@ nav h1 {
     }
 
     #LARA {
-
         padding-left: 22px;
     }
 
@@ -359,7 +355,7 @@ nav h1 {
     z-index: -1;
     inset: 0;
     background-color: var(--COLOR-EIGHT);
-    opacity: 0.91;
+    opacity: 0.85;
 
 }
 
@@ -372,6 +368,7 @@ nav h1 {
     padding-right: 40px;
 
     color: var(--COLOR-SIX);
+    text-shadow: 1px 1px 1px var(--COLOR-SEVEN); 
     font-size: 30px;
     font-family: 'DM Sans', sans-serif;
 }
@@ -505,6 +502,7 @@ nav h1 {
     opacity: 1;
     padding: 70px 50px 40px;
     color: var(--COLOR-SIX);
+    text-shadow: 1px 1px 1px var(--COLOR-SEVEN); 
     font-family: 'DM Sans', sans-serif;
     text-align: center;
 }
@@ -577,7 +575,7 @@ nav h1 {
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: var(--COLOR-THREE);
+    background-color: var(--COLOR-EIGHT);
     opacity: 0.79;
 }
 
@@ -588,6 +586,7 @@ nav h1 {
     font-family: 'DM Sans', sans-serif;
     text-align: center;
     color: var(--COLOR-SIX);
+    text-shadow: 1px 1px 1px var(--COLOR-SEVEN); 
 }
 
 .column2 {
@@ -668,8 +667,8 @@ iframe {
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: var(--COLOR-THREE);
-    opacity: 0.9;
+    background-color: var(--COLOR-EIGHT);
+    opacity: 0.88;
 }
 
 .LaraAtPiano {
@@ -690,7 +689,7 @@ iframe {
     color: var(--COLOR-SIX);
     font-family: "DM Sans", sans serif;
     text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px var(--COLOR-SEVEN); 
 }
 
 .LaraSMIs {
@@ -819,12 +818,12 @@ iframe {
 }
 
 #Showsdiv {
-    background-color: var(--COLOR-THREE);
+    background-color: var(--COLOR-EIGHT);
     padding: 100px 30px;
 }
 
 #Contactdiv {
-    background-color: var(--COLOR-THREE);
+    background-color: var(--COLOR-EIGHT);
     padding: 60px 44px;
 }
 
@@ -836,11 +835,11 @@ iframe {
 
 .h1S6 {
     color: var(--COLOR-SIX);
-    font-weight: bold;
+    text-shadow: 1px 1px 1px var(--COLOR-SEVEN); 
+    /* font-weight: bold; */
     font-size: 42px;
     font-family: "DM Sans", sans serif;
-
-}
+    }
 
 /* @media (min-width: 960px) {
     .section6 {
@@ -854,7 +853,7 @@ iframe {
 /* FOOTER */
 
 .divfooter {
-    background-color: var(--COLOR-FIVE);
+    background-color: var(--COLOR-SIX);
     line-height: 40px;
     height: auto;
     display: flex;
@@ -870,7 +869,8 @@ iframe {
     width: 50%;
     text-align: right;
     padding: 20px;
-    color: var(--COLOR-TEXT2);
+    color: var(--COLOR-EIGHT);
+    text-shadow: 1px 1px 1px var(--COLOR-SEVEN); 
 }
 
 .foolink {
