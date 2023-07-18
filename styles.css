@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     /* font-family: 'Cousine', monospace; */
-    font-family: 'Gentium Book Plus', serif;
+    /* font-family: 'Gentium Book Plus', serif; */
 
     /* outline: 1px solid green !important; */
 }
@@ -26,7 +26,8 @@ img {
     --COLOR-THREE: #f5d5d5;
     --COLOR-FOUR: #eca3a3;
     --COLOR-FIVE: #f7b3b3;
-    --COLOR-SIX: #BC9371;
+    /* --COLOR-SIX: #BC9371; */
+    --COLOR-SIX: #f5a976;
     --COLOR-SEVEN: #333;
     --COLOR-EIGHT: #FFFCC9;
 
@@ -89,7 +90,7 @@ img {
 /* --- FONT PALETTE |||  */
 
 :root {
-    --FONT-ONE: Arial, sans-serif; 
+    --FONT-ONE: Arial, sans-serif;
     --FONT-TWO: 'Sacramento', cursive;
 }
 
@@ -102,7 +103,7 @@ nav {
     height: 65px;
     background-color: var(--COLOR-SIX);
     overflow: hidden;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -112,16 +113,17 @@ nav {
     height: 40px;
     padding-left: 15px;
     margin-right: 15px;
-    position: right; 
+    position: right;
+
 }
 
 nav h1 {
-    display: inline; 
-    font-size: 50px; 
+    display: inline;
+    font-size: 40px;
     text-align: center;
-    color: white; 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif'; 
-    
+    color: white;
+    font-family: 'Times New Roman', serif;
+    text-shadow: 2px 2px 4px gray  ;
 }
 
 .topnav ul {
@@ -172,13 +174,20 @@ nav h1 {
 
 #LARA {
     display: block;
-    height: 100px; 
+    height: 140px;
     left: 30px;
-    padding: 37px 35px 80px 20px;
+    padding: 37px 35px 0px 20px;
     word-wrap: break-word;
     font-family: var(--FONT-TWO);
     color: var(--COLOR-EIGHT);
-    font-size: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    text-shadow: 1px 1px 0px gray; 
+}
+
+#LARA .large {
+    font-size: 80px;
+    /* Font size for 'L' and 'G' */
 }
 
 #p1 {
@@ -283,7 +292,7 @@ nav h1 {
     }
 
     #LARA {
-     
+
         padding-left: 22px;
     }
 
@@ -312,11 +321,11 @@ nav h1 {
     }
 
     #LARA {
-        padding-left: 90px; 
+        padding-left: 90px;
     }
 
     #p1 {
-        padding-left: 90px; 
+        padding-left: 90px;
     }
 }
 
@@ -366,10 +375,6 @@ nav h1 {
     font-size: 30px;
     font-family: 'DM Sans', sans-serif;
 }
-
-/* .sib-form {
-    background-color: black; 
-} */
 
 
 .p1 {
@@ -511,7 +516,7 @@ nav h1 {
 .column1 {
     flex: 50%;
     padding: 20px 40px 20px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
 }

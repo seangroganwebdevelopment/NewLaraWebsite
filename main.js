@@ -1,15 +1,22 @@
-// HERO SECTION - Real time writing 
-
 // HERO SECTION - Real time writing
 
 function typeEffect() {
   const titleElement = document.getElementById('LARA');
   const titleText = "Lara Grogan"; // Replace with your desired title text
-  const typingSpeed = 300; // Adjust typing speed (in milliseconds)
+  const typingSpeed = 260; // Adjust typing speed (in milliseconds)
 
   let i = 0;
   const timer = setInterval(function () {
-    titleElement.textContent += titleText.charAt(i);
+    const character = titleText.charAt(i);
+    const span = document.createElement('span');
+    span.textContent = character;
+
+    if (character === 'L' || character === 'G') {
+      span.classList.add('large');
+    }
+
+    titleElement.appendChild(span);
+
     i++;
     if (i === titleText.length) {
       clearInterval(timer);
@@ -17,11 +24,12 @@ function typeEffect() {
   }, typingSpeed);
 }
 
-// Delay the start of typing effect for 2 seconds
+// Delay the start of typing effect for 3 seconds
 setTimeout(function () {
   // Call the function to start the typing effect
   typeEffect();
-}, 1000);
+}, 3000);
+
 
 
 
