@@ -3,7 +3,7 @@
 function typeEffect() {
   const titleElement = document.getElementById('LARA');
   const titleText = "Lara Grogan"; // Replace with your desired title text
-  const typingSpeed = 260; // Adjust typing speed (in milliseconds)
+  const typingSpeed = 100; // Adjust typing speed (in milliseconds)
 
   let i = 0;
   const timer = setInterval(function () {
@@ -28,7 +28,7 @@ function typeEffect() {
 setTimeout(function () {
   // Call the function to start the typing effect
   typeEffect();
-}, 3000);
+}, 2200);
 
 
 
