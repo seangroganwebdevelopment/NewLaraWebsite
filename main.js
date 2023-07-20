@@ -28,7 +28,7 @@ function typeEffect() {
 setTimeout(function () {
   // Call the function to start the typing effect
   typeEffect();
-}, 2200);
+}, 10);
 
 
 
