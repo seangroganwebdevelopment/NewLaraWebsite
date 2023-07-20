@@ -33,6 +33,7 @@ img {
     --COLOR-SIX: #f5a976;
     --COLOR-SEVEN: #333;
     --COLOR-EIGHT: #FFFCC9;
+    --COLOR-NINE: #6D7123; 
 
     --COLOR-TEXT: #4e2020;
     --COLOR-TEXT2: #fff;
@@ -99,6 +100,7 @@ img {
     --FONT-FOUR: 'Norican', cursive;
     --FONT-FIVE: 'Homemade Apple', cursive;
     --FONT-SIX: 'Mrs Saint Delafield', cursive;
+    --FONT-SEVEN: Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* --------------------------------------------- */
@@ -186,7 +188,7 @@ nav h1 {
     font-family: var(--FONT-TWO);
     color: var(--COLOR-EIGHT);
 
-    font-size: 35px;
+    font-size: 32px;
     text-shadow: 2px 2px 12px var(--COLOR-SEVEN);
 }
 
@@ -201,6 +203,7 @@ nav h1 {
     padding-bottom: 100px;
     color: var(--COLOR-EIGHT);
     text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
+    font-family: var(--FONT-SEVEN);
 }
 
 .flex-container1 {
@@ -231,22 +234,22 @@ nav h1 {
 }
 
 .fa-facebook {
-    color: var(--COLOR-TEXT2);
+    color: var(--COLOR-EIGHT);
     text-decoration: none;
 }
 
 .fa-instagram {
-    color: var(--COLOR-TEXT2);
+    color: var(--COLOR-EIGHT);
     text-decoration: none;
 }
 
 .fa-youtube {
-    color: var(--COLOR-TEXT2);
+    color: var(--COLOR-EIGHT);
     text-decoration: none;
 }
 
 .fa-tiktok {
-    color: var(--COLOR-TEXT2);
+    color: var(--COLOR-EIGHT);
     text-decoration: none;
 }
 
@@ -258,9 +261,11 @@ nav h1 {
 
     border-radius: 5%;
     border: none;
-    font-size: 19px;
+    font-size: 20px;
+    font-weight: bold;
     font-family: var(--FONT-THREE);
-    text-shadow: 1px 1px var(--COLOR-FOUR);
+    color: var(--COLOR-NINE); 
+    /* text-shadow: 1px 1px var(--COLOR-EIGHT); */
 }
 
 #button1:hover {
@@ -375,7 +380,7 @@ nav h1 {
     padding-right: 40px;
 
     color: var(--COLOR-SIX);
-    text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
+    text-shadow: 1px 1px 1px var(--COLOR-NINE);
     font-size: 30px;
     font-family: 'DM Sans', sans-serif;
 }
@@ -383,6 +388,7 @@ nav h1 {
 
 .p1 {
     text-align: center;
+    font-family: var(--FONT-SEVEN); 
     font-size: 17px;
     padding: 35px 35px 0 35px;
     line-height: 28px;
@@ -501,7 +507,7 @@ nav h1 {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.35;
+    opacity: 0.22;
 }
 
 .headingSection3A {
@@ -526,7 +532,12 @@ nav h1 {
     text-align: center;
 }
 
+.s3p1 {
+    font-family: var(--FONT-SEVEN);
+}
+
 .s3p2 {
+    font-family: var(--FONT-SEVEN);
     padding-bottom: 30px;
 }
 
@@ -617,6 +628,7 @@ nav h1 {
 }
 
 .column2 {
+    font-family: var(--FONT-SEVEN);
     flex: 50%;
     padding: 10px 80px 30px 80px;
     font-size: 17px;
@@ -711,6 +723,8 @@ iframe {
     background-position: center;
     position: relative;
     isolation: isolate;
+
+    min-height: 90vh;
 }
 
 .section5::after {
@@ -732,7 +746,6 @@ iframe {
     width: 80%;
 
     border-radius: 10%;
-
 }
 
 .LaraContactText {
@@ -744,7 +757,7 @@ iframe {
     /* font-weight: bold; */
 
     color: var(--COLOR-SIX);
-    font-family: "DM Sans", sans serif;
+    font-family: var(--FONT-SEVEN);
 
 
     text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
@@ -852,7 +865,7 @@ iframe {
 
 .section6 {
     position: relative;
-    height: auto;
+    height: 100vh;
     color: var(--COLOR-TEXT);
     font-size: 24px;
     text-align: center;
@@ -872,11 +885,11 @@ iframe {
     bottom: 0px;
     left: 0px;
 
-    opacity: 0.32;
+    opacity: 0.35;
 }
 
 #Showsdiv {
-    background-color: var(--COLOR-EIGHT);
+    /* background-color: var(--COLOR-EIGHT); */
     padding: 100px 30px;
 }
 
@@ -892,11 +905,11 @@ iframe {
 }
 
 .h1S6 {
-    color: var(--COLOR-SIX);
-    text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
+    color: var(--COLOR-NINE);
+    text-shadow: 1px 1px 1px var(--COLOR-EIGHT);
     /* font-weight: bold; */
-    font-size: 42px;
-    font-family: "DM Sans", sans serif;
+    font-size: 62px;
+    font-family: var(--FONT-TWO);
 }
 
 /* @media (min-width: 960px) {
@@ -912,7 +925,7 @@ iframe {
 
 .divfooter {
     background-color: var(--COLOR-SIX);
-    line-height: 40px;
+    line-height: 20px;
     height: auto;
     display: flex;
 }
@@ -921,6 +934,8 @@ iframe {
     width: 50%;
     text-align: left;
     padding: 20px;
+    color: var(--COLOR-EIGHT);
+    text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
 }
 
 .divF1b {
@@ -933,28 +948,16 @@ iframe {
 
 .foolink {
     text-decoration: none;
-    color: rgb(107, 18, 18);
+    color: var(--FONT-EIGHT); 
 }
 
 .foolink:hover {
     color: var(--COLOR-SEVEN);
 }
 
-@media (max-width: 768px) {
-    .divfooter {
-        display: block;
-    }
 
-    .divF1a {
-        width: 100%;
-    }
 
-    .divF1b {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
+@media (min-width: 600px) {
 
     .divfooter {
         line-height: 10px;
@@ -963,12 +966,10 @@ iframe {
     .foolink {
         font-size: 14px;
         text-align: center;
+    
     }
 
-    .divF1a {
-        display: none;
-    }
-
+   
     .divF1b {
         font-size: 16px;
         text-align: center;

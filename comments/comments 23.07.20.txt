@@ -1,0 +1,2 @@
+- change font from Times New Roman to Arial (section 2)
+- make photo sizes smaller
