@@ -934,21 +934,21 @@ iframe {
     width: 50%;
     text-align: left;
     padding: 20px;
-    color: var(--COLOR-EIGHT);
-    text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
+    color: var(--COLOR-SEVEN);
+    /* text-shadow: 1px 1px 1px var(--COLOR-SEVEN); */
 }
 
 .divF1b {
     width: 50%;
     text-align: right;
     padding: 20px;
-    color: var(--COLOR-EIGHT);
-    text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
+    color: var(--COLOR-SEVEN);
+    /* text-shadow: 1px 1px 1px var(--COLOR-SEVEN); */
 }
 
 .foolink {
     text-decoration: none;
-    color: var(--FONT-EIGHT); 
+    color: var(--FONT-SEVEN); 
 }
 
 .foolink:hover {
