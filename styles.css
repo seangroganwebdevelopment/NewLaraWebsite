@@ -170,7 +170,8 @@ nav h1 {
 
 .section1 {
     /* background-color: var(--COLOR-FIVE); */
-    background-image: url(images/4_2doctored.jpeg);
+   
+    background-image: url(images/LaraMain_600pw.jpeg);
     height: 80vh;
     background-position: 45% 55%;
     width: 100%;
@@ -278,6 +279,7 @@ nav h1 {
 @media screen and (min-width: 600px) {
 
     .section1 {
+        background-image: url(images/LaraMain_780pw.jpeg);
         background-position: 10% 90%;
         height: 80vh;
     }
@@ -296,6 +298,7 @@ nav h1 {
 @media screen and (min-width: 768px) {
 
     .section1 {
+        background-image: url(images/LaraMain_1060pw.jpeg);
         height: 100vh;
     }
 
@@ -313,6 +316,7 @@ nav h1 {
 @media screen and (min-width: 1050px) {
 
     .section1 {
+        background-image: url(images/LaraMain_1600pw.jpeg);
         background-position: 20% 0%;
     }
 
@@ -336,6 +340,14 @@ nav h1 {
     }
 }
 
+@media screen and (min-width: 1600px) {
+
+    .section1 {
+        background-image: url(images/LaraMain.jpeg);
+        background-position: 20% 0%;
+    }
+}
+    
 
 /* ------------------------------------------- */
 
