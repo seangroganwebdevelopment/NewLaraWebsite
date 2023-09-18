@@ -29,11 +29,25 @@ img {
     --COLOR-THREE: #f5d5d5;
     --COLOR-FOUR: #eca3a3;
     --COLOR-FIVE: #f7b3b3;
-    /* --COLOR-SIX: #BC9371; */
     --COLOR-SIX: #f5a976;
     --COLOR-SEVEN: #333;
     --COLOR-EIGHT: #FFFCC9;
-    --COLOR-NINE: #6D7123; 
+    --COLOR-NINE: #6D7123;
+
+    --COLOR-TEXT: #4e2020;
+    --COLOR-TEXT2: #fff;
+}
+
+.blue-mode {
+    --COLOR-ONE: #485cb1;
+    --COLOR-TWO: #70a1bd;
+    --COLOR-THREE: #f5d5d5;
+    --COLOR-FOUR: #eca3a3;
+    --COLOR-FIVE: #f7b3b3;
+    --COLOR-SIX: #c5d3e0;
+    --COLOR-SEVEN: #333;
+    --COLOR-EIGHT: #FFFCC9;
+    --COLOR-NINE: #6D7123;
 
     --COLOR-TEXT: #4e2020;
     --COLOR-TEXT2: #fff;
@@ -108,8 +122,8 @@ img {
 
 .stickyheader {
     position: sticky;
-  top: 0;
-  z-index: 100;
+    top: 0;
+    z-index: 100;
 }
 
 nav {
@@ -170,7 +184,7 @@ nav h1 {
 
 .section1 {
     /* background-color: var(--COLOR-FIVE); */
-   
+
     background-image: url(images/LaraMain_600pw.jpeg);
     height: 80vh;
     background-position: 45% 55%;
@@ -187,7 +201,7 @@ nav h1 {
     padding: 37px 35px 0px 20px;
     word-wrap: break-word;
     font-family: var(--FONT-TWO);
-    color: var(--COLOR-EIGHT);
+    color: var(--COLOR-SIX);
 
     font-size: 32px;
     text-shadow: 2px 2px 12px var(--COLOR-SEVEN);
@@ -202,7 +216,7 @@ nav h1 {
     font-size: 26px;
     padding-left: 22px;
     padding-bottom: 100px;
-    color: var(--COLOR-EIGHT);
+    color: var(--COLOR-SIX);
     text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
     font-family: var(--FONT-SEVEN);
 }
@@ -265,7 +279,7 @@ nav h1 {
     font-size: 20px;
     font-weight: bold;
     font-family: var(--FONT-THREE);
-    color: var(--COLOR-NINE); 
+    color: var(--COLOR-NINE);
     /* text-shadow: 1px 1px var(--COLOR-EIGHT); */
 }
 
@@ -347,7 +361,7 @@ nav h1 {
         background-position: 20% 0%;
     }
 }
-    
+
 
 /* ------------------------------------------- */
 
@@ -360,7 +374,7 @@ nav h1 {
     background-image: url('images/patterns/eugene-golovesov-9XnldxAo178-unsplash.jpg');
 
     color: var(--COLOR-SEVEN);
-     background-size: cover;
+    background-size: cover;
     background-position: center;
     /* border-radius: 20%; */
 
@@ -400,7 +414,7 @@ nav h1 {
 
 .p1 {
     text-align: center;
-    font-family: var(--FONT-SEVEN); 
+    font-family: var(--FONT-SEVEN);
     font-size: 17px;
     padding: 35px 35px 0 35px;
     line-height: 28px;
@@ -714,9 +728,10 @@ iframe {
             padding-top: 20px;
 
         }
+
         .row2a {
-            width: 65%; 
-            margin: 0 auto; 
+            width: 65%;
+            margin: 0 auto;
         }
     }
 }
@@ -960,7 +975,7 @@ iframe {
 
 .foolink {
     text-decoration: none;
-    color: var(--FONT-SEVEN); 
+    color: var(--FONT-SEVEN);
 }
 
 .foolink:hover {
@@ -978,10 +993,10 @@ iframe {
     .foolink {
         font-size: 14px;
         text-align: center;
-    
+
     }
 
-   
+
     .divF1b {
         font-size: 16px;
         text-align: center;
