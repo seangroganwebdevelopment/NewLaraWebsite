@@ -41,13 +41,13 @@ img {
 .blue-mode {
     --COLOR-ONE: #485cb1;
     --COLOR-TWO: #70a1bd;
-    --COLOR-THREE: #f5d5d5;
-    --COLOR-FOUR: #eca3a3;
-    --COLOR-FIVE: #f7b3b3;
+    --COLOR-THREE: #d5ebf5;
+    --COLOR-FOUR: #a3e1ec;
+    --COLOR-FIVE: #2f5bec;
     --COLOR-SIX: #c5d3e0;
-    --COLOR-SEVEN: #333;
-    --COLOR-EIGHT: #FFFCC9;
-    --COLOR-NINE: #6D7123;
+    --COLOR-SEVEN: #593c66;
+    --COLOR-EIGHT: #c5e7e2;
+    --COLOR-NINE: #0e004d;
 
     --COLOR-TEXT: #4e2020;
     --COLOR-TEXT2: #fff;
@@ -144,7 +144,7 @@ nav h1 {
     padding-right: 20px;
     color: var(--COLOR-EIGHT);
     font-family: 'Sacramento', cursive;
-    text-shadow: 2px 2px 4px gray;
+    text-shadow: 2px 2px 4px var(--COLOR-SEVEN);
 }
 
 .topnav ul {
@@ -201,10 +201,10 @@ nav h1 {
     padding: 37px 35px 0px 20px;
     word-wrap: break-word;
     font-family: var(--FONT-TWO);
-    color: var(--COLOR-SIX);
+    color: var(--COLOR-THREE);
 
     font-size: 32px;
-    text-shadow: 2px 2px 12px var(--COLOR-SEVEN);
+    text-shadow: 2px 2px 12px var(--COLOR-NINE);
 }
 
 #LARA .large {
@@ -217,7 +217,7 @@ nav h1 {
     padding-left: 22px;
     padding-bottom: 100px;
     color: var(--COLOR-SIX);
-    text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
+    text-shadow: 1px 1px 1px var(--COLOR-NINE);
     font-family: var(--FONT-SEVEN);
 }
 
@@ -245,11 +245,11 @@ nav h1 {
 }
 
 .fa:hover {
-    background-color: var(--COLOR-FOUR);
+    background-color: var(--COLOR-TWO);
 }
 
 .fa-facebook {
-    color: var(--COLOR-EIGHT);
+    color: var(--COLOR-TWO);
     text-decoration: none;
 }
 
@@ -279,8 +279,8 @@ nav h1 {
     font-size: 20px;
     font-weight: bold;
     font-family: var(--FONT-THREE);
-    color: var(--COLOR-NINE);
-    /* text-shadow: 1px 1px var(--COLOR-EIGHT); */
+    color: var(--COLOR-ONE);
+    text-shadow: 1px 1px var(--COLOR-EIGHT);
 }
 
 #button1:hover {
@@ -370,10 +370,11 @@ nav h1 {
 
 .section2 {
 
-    background-color: var(--COLOR-EIGHT);
+    background-color: var(--COLOR-ONE);
     background-image: url('images/patterns/eugene-golovesov-9XnldxAo178-unsplash.jpg');
 
-    color: var(--COLOR-SEVEN);
+    color: var(--COLOR-THREE);
+    text-shadow: 2px 1px 1px var(--COLOR-NINE);
     background-size: cover;
     background-position: center;
     /* border-radius: 20%; */
@@ -392,7 +393,7 @@ nav h1 {
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: var(--COLOR-EIGHT);
+    background-color: var(--COLOR-TWO);
     opacity: 0.85;
 
 }
@@ -513,7 +514,8 @@ nav h1 {
 .section3 {
 
     height: auto;
-    color: var(--COLOR-SEVEN);
+    color: var(--COLOR-NINE);
+    text-shadow: 1px 1px #dde5ec;
     font-size: 24px;
     position: relative;
     isolation: isolate;
@@ -524,6 +526,7 @@ nav h1 {
     content: "";
     position: absolute;
     background-image: url(images/LaraSection3.jpeg);
+    background-color: var(--COLOR-TWO);
     background-size: cover;
     background-position: 49% 31%;
     z-index: -1;
@@ -533,14 +536,14 @@ nav h1 {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.22;
+    opacity: 0.432;
 }
 
 .headingSection3A {
     font-size: 40px;
-    opacity: 1;
+    opacity: 0.81;
     padding: 70px 50px 40px;
-    color: var(--COLOR-SIX);
+    color: var(--COLOR-ONE);
     text-shadow: 1px 1px 1px var(--COLOR-SEVEN);
     font-family: 'DM Sans', sans-serif;
     text-align: center;
@@ -570,7 +573,7 @@ nav h1 {
 
 @media (min-width: 600px) {
     .column1 {
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .headingSection3A {
@@ -619,8 +622,8 @@ nav h1 {
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: var(--COLOR-EIGHT);
-    opacity: 0.87;
+    background-color: var(--COLOR-TWO);
+    opacity: 0.8;
 }
 
 .headingmainS4 {
@@ -672,6 +675,11 @@ iframe {
 
 
 @media (min-width: 600px) {
+
+    .section4 p {
+        font-size: 20px; 
+        text-shadow: 1px 1px var(--COLOR-SEVEn)
+    }
 
     .row2 {
         display: block;
@@ -762,7 +770,7 @@ iframe {
     z-index: -1;
     inset: 0;
     background-color: var(--COLOR-EIGHT);
-    opacity: 0.88;
+    opacity: 0.93;
 }
 
 .LaraAtPiano {
@@ -783,7 +791,7 @@ iframe {
     font-size: 26px;
     /* font-weight: bold; */
 
-    color: var(--COLOR-SIX);
+    color: var(--COLOR-TWO);
     font-family: var(--FONT-SEVEN);
 
 
@@ -800,7 +808,7 @@ iframe {
 }
 
 .LaraSMIs div {
-    background-color: var(--COLOR-SIX);
+    background-color: var(--COLOR-TWO);
     margin: 5px;
     font-size: 21px;
     border-radius: 10%;
@@ -932,7 +940,7 @@ iframe {
 }
 
 .h1S6 {
-    color: var(--COLOR-NINE);
+    color: var(--COLOR-SEVEN);
     text-shadow: 1px 1px 1px var(--COLOR-EIGHT);
     /* font-weight: bold; */
     font-size: 62px;
