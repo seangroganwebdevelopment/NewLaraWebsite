@@ -380,7 +380,7 @@ nav h1 {
     /* border-radius: 20%; */
 
 
-    padding-bottom: 0px;
+    padding-bottom: 3rem;
 
     position: relative;
     isolation: isolate;
@@ -394,7 +394,7 @@ nav h1 {
     z-index: -1;
     inset: 0;
     background-color: var(--COLOR-TWO);
-    opacity: 0.85;
+    opacity: 0.95;
 
 }
 
@@ -605,7 +605,7 @@ nav h1 {
 
 .section4 {
     height: auto;
-    background-color: #704545;
+    background-color: #c09090;
     background-image: url('images/city/__beautiful-hand-draw-city-skyline-sketch_1035-20293.avif');
     background-size: cover;
     background-position: top center;
@@ -622,7 +622,7 @@ nav h1 {
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: var(--COLOR-TWO);
+    background-color: rgb(228, 247, 252);
     opacity: 0.8;
 }
 
