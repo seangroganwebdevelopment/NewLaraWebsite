@@ -1,4 +1,4 @@
-/* FONT IMPORT  */
+/* ------------FONT IMPORT-----------  */
 
 @import url('https://fonts.googleapis.com/css2?family=Coustard&family=Gentium+Book+Plus&family=Indie+Flower&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
@@ -7,13 +7,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
 
 /* Alex Brush  */
+
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 /* Playfair Display  */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-
+/* ----------------------- */
 
 * {
     margin: 0;
@@ -30,7 +31,7 @@ img {
     height: auto;
 }
 
-/* || VARIABLES */
+/* || -----------VARIABLES------------ */
 
 /* --- COLOUR PALETTE(s) |||  */
 
@@ -398,8 +399,8 @@ nav h1 {
 
 .section2 {
     height: auto;
-    background-color: var(--COLOR-FOUR);
-    /* background-image: url('images/city/__beautiful-hand-draw-city-skyline-sketch_1035-20293.avif'); */
+    background-color: var(--COLOR-SIX);
+    background-image: url('images/textures/texture1.jpg');
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -539,9 +540,13 @@ iframe {
 
 /* SECTION 3 - 'New Music and Releases' - WHAT WAS MINE */
 
+/* --------OVERALL SECTION STYLES----------- */
+
 .section3 {
     height: auto;
-    background-color: var(--COLOR-FIVE);
+   
+    background: linear-gradient(-45deg, var(--COLOR-FIVE), var(--COLOR-EIGHT));
+    /* background-color: var(--COLOR-TWO); */
     /* background-image: url('images/city/__beautiful-hand-draw-city-skyline-sketch_1035-20293.avif'); */
     background-size: cover;
     background-position: top center;
@@ -558,8 +563,9 @@ iframe {
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: var(--COLOR-FIVE);
-    opacity: 0.8;
+   
+    
+    opacity: 0.2;
 }
 
 .headingmainS3 {
@@ -572,6 +578,8 @@ iframe {
     padding: 20px 0 0 0;
 
 }
+
+/* Headings and Text Styles */
 
 .headingSection3 {
     font-size: 30px;
@@ -592,6 +600,9 @@ iframe {
     padding: 10px;
 }
 
+
+/* Column and Layout Styles */
+
 .column2 {
     font-family: var(--FONT-SEVEN);
     flex: 50%;
@@ -609,8 +620,10 @@ iframe {
 
 }
 
+/* Media Queries */
 
 @media (min-width: 600px) {
+     /* Styles for screens wider than 600px */
 
     .section3 p {
         font-size: 20px; 
@@ -627,6 +640,7 @@ iframe {
 }
 
 @media (min-width: 768px) {
+    /* Styles for screens wider than 768px */
 
     .section3 {
         min-height: 120vh;
@@ -659,6 +673,7 @@ iframe {
     }
 
     @media (min-width: 960px) {
+        /* Additional styles for screens wider than 960px */
 
         .section4 {
             padding-bottom: 50px;
@@ -685,7 +700,7 @@ iframe {
 .section4 {
     height: auto;
     background-color: var(--COLOR-SEVEN);
-    /* background-image: url('images/city/__beautiful-hand-draw-city-skyline-sketch_1035-20293.avif'); */
+    background-image: url('images/textures/texture10.jpg');
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -702,7 +717,7 @@ iframe {
     z-index: -1;
     inset: 0;
     background-color: var(--COLOR-SEVEN);
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 .headingmainS4 {
@@ -922,17 +937,15 @@ iframe {
 .section6 {
 
     background-color: var(--COLOR-FIVE);
-    /* background-image: url('images/patterns/eugene-golovesov-9XnldxAo178-unsplash.jpg'); */
+    /* background-image: url('images/textures/texture12.jpg'); */
 
-    color: var(--COLOR-THREE);
+    /* color: var(--COLOR-THREE); */
     /* text-shadow: 2px 1px 1px var(--COLOR-NINE); */
     background-size: cover;
     background-position: center;
     /* border-radius: 20%; */
 
-
     padding-bottom: 3rem;
-
     position: relative;
     isolation: isolate;
 }
@@ -944,8 +957,8 @@ iframe {
     background-position: center;
     z-index: -1;
     inset: 0;
-    background-color: var(--COLOR-FIVE);
-    opacity: 0.95;
+    
+    opacity: 0.1;
 }
 
 .headingSection6 {
