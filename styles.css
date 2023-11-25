@@ -1,3 +1,9 @@
+/* --------------TO DO ------------------ */
+
+/* Make a frame/border around videos (and other elements?) */
+
+
+
 /* ------------FONT IMPORT-----------  */
 
 @import url('https://fonts.googleapis.com/css2?family=Coustard&family=Gentium+Book+Plus&family=Indie+Flower&family=Roboto&display=swap');
@@ -313,7 +319,6 @@ nav h1 {
     #p1 {
         font-size: 34px;
         padding-left: 22px;
-
     }
 }
 
@@ -344,12 +349,28 @@ nav h1 {
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1500px) {
 
     .section1 {
         background-image: url(images/LaraMain.jpeg);
-        background-position: 20% 0%;
+        background-position: 90% 0%;
     }
+
+    #LARA {
+        font-size: 10rem;
+        padding-top: 5rem;
+        padding-bottom: 12rem;
+    }
+
+    #p1 {
+        font-size: 4.5rem;
+        padding-bottom: 200px;
+    }
+
+    #LARA .large {
+        font-size: 160px;
+    }
+
 }
 
 
@@ -432,7 +453,7 @@ iframe {
 
     .section2 p {
         font-size: 20px;
-        text-shadow: 1px 1px var(--COLOR-SEVEn)
+        text-shadow: 1px 1px var(--COLOR-SEVEN)
     }
 
     .row2 {
@@ -496,6 +517,33 @@ iframe {
         width: 65%;
         margin: 0 auto;
     }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .headingmainS2 {
+        padding-top: 5rem;
+        font-size: 7rem;
+    }
+
+    .headingSection2 {
+        padding-bottom: 5rem;
+
+    }
+
+    .column2 p {
+        font-size: 2rem;
+        line-height: 1.8rem;
+        padding-bottom: 5rem;
+    }
+
+    iframe {
+        width: 85%;
+        height: 45rem;
+        padding-bottom: 6rem;
+        /* box-shadow: 0 0 120px  rgb(243, 224, 224); */
+    }
+
 }
 
 
@@ -634,28 +682,52 @@ iframe {
     iframe {
         width: 65%;
     }
+}
 
-    @media (min-width: 960px) {
-        /* Additional styles for screens wider than 960px */
+@media (min-width: 960px) {
+    /* Additional styles for screens wider than 960px */
 
-        .section4 {
-            padding-bottom: 50px;
-        }
-
-        .headingmainS4 {
-            font-size: 90px;
-        }
-
-        .headingSection4 {
-            padding-top: 20px;
-
-        }
-
-        .row2a {
-            width: 65%;
-            margin: 0 auto;
-        }
+    .section4 {
+        padding-bottom: 50px;
     }
+
+    .headingmainS4 {
+        font-size: 90px;
+    }
+
+    .headingSection4 {
+        padding-top: 20px;
+
+    }
+
+    .row2a {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+
+
+    .headingSection3 {
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+
+    }
+
+    .column2 p {
+        font-size: 2rem;
+        line-height: 1.8rem;
+        padding-bottom: 5rem;
+    }
+
+    iframe {
+        width: 85%;
+        height: 45rem;
+        padding-bottom: 6rem;
+    }
+
 }
 
 /* SECTION 4 - 'New Music and Releases - City and its People' */
@@ -778,29 +850,53 @@ iframe {
     iframe {
         width: 65%;
     }
+}
 
-    @media (min-width: 960px) {
+@media (min-width: 960px) {
 
-        .section4 {
-            padding-bottom: 50px;
-        }
+    .section4 {
+        padding-bottom: 50px;
+    }
 
-        .headingmainS4 {
-            font-size: 90px;
-        }
+    .headingmainS4 {
+        font-size: 90px;
+    }
 
-        .headingSection4 {
-            padding-top: 20px;
+    .headingSection4 {
+        padding-top: 20px;
 
-        }
+    }
 
-        .row2a {
-            width: 65%;
-            margin: 0 auto;
-        }
+    .row2a {
+        width: 65%;
+        margin: 0 auto;
     }
 }
 
+
+@media screen and (min-width: 1500px) {
+
+
+
+    .headingSection4 {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+
+    }
+
+    .column2 p {
+        font-size: 2rem;
+        line-height: 1.8rem;
+        padding-bottom: 5rem;
+    }
+
+    iframe {
+        width: 85%;
+        height: 55rem;
+        padding-bottom: 6rem;
+    }
+
+}
 
 /* SECTION FIVE 'Stepping Stones in Lara's Musical Career' */
 
@@ -891,6 +987,28 @@ iframe {
 
 }
 
+@media screen and (min-width: 1500px) {
+
+    .headingSection5A {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+
+    }
+
+    .s5p1, .s5p2 {
+        font-size: 2rem;
+        line-height: 1.8rem;
+        padding-bottom: 5rem;
+    }
+
+    iframe {
+        width: 85%;
+        height: 45rem;
+        padding-bottom: 6rem;
+    }
+
+}
+
 /* ------------------------------------------- */
 
 
@@ -939,7 +1057,7 @@ iframe {
 }
 
 
-.p1 {
+.S6p1 {
     text-align: center;
     font-family: var(--FONT-THREE);
     font-size: 17px;
@@ -981,7 +1099,7 @@ iframe {
         font-size: 40px;
     }
 
-    .p1 {
+    .S6p1 {
         font-size: 18px;
         padding: 65px 80px 0 80px;
         line-height: 28px;
@@ -1019,7 +1137,7 @@ iframe {
         height: 110vh;
     }
 
-    .p1 {
+    .s6p1 {
         font-size: 22px;
         padding: 55px 120px 0 120px;
         line-height: 28px;
@@ -1032,6 +1150,32 @@ iframe {
         padding: 55px 120px 100px 120px;
         line-height: 28px;
     }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .headingSection6 {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+
+    }
+
+    .S6p1 {
+        font-size: 2rem;
+        line-height: 1.8rem;
+        padding-bottom: 8rem;
+        
+        text-align: center;
+        padding-left: 12rem; 
+        padding-right: 12rem; 
+    }
+
+    iframe {
+        width: 85%;
+        height: 45rem;
+        padding-bottom: 6rem;
+    }
+
 }
 
 /* ------------------------------------------- */
