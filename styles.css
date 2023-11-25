@@ -19,9 +19,6 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    /* font-family: 'Cousine', monospace; */
-    /* font-family: 'Gentium Book Plus', serif; */
-
     /* outline: 1px solid green !important; */
 }
 
@@ -46,9 +43,9 @@ img {
     --COLOR-SIX: #788FA6;
     --COLOR-SEVEN: #D4B6B6;
     --COLOR-EIGHT: #DAAAAA;
-   
+
     --COLOR-TEXT: #000;
-    --COLOR-TEXT2: #fff; 
+    --COLOR-TEXT2: #fff;
 }
 
 :root {
@@ -94,43 +91,7 @@ img {
     --COLOR-TEXT2: #fff;
 }
 
-.bronze-mode {
-    /* BRONZE:  */
-    --COLOR-ONE: #967444;
-    /* SHADES AND VARIATIONS OF BRONZE */
-    --COLOR-TWO: #574327;
-    --COLOR-THREE: #e3af66;
-    --COLOR-FOUR: #A37E49;
-    --COLOR-FIVE: #7D6038;
-    /* COMPLEMENTARY COLORS TO BRONZE */
-    --COLOR-SIX: #4A361A;
-    --COLOR-SEVEN: #E3B87D;
-    --COLOR-EIGHT: #12354A;
-    --COLOR-NINE: #447796;
 
-    --COLOR-TEXT: #4e2020;
-    --COLOR-TEXT2: #fff;
-}
-
-.dark-mode {
-    --COLOR-ONE: #5a99e2;
-    --COLOR-TWO: #97cceb;
-    --COLOR-THREE: #a3e8f1;
-    --COLOR-FOUR: #a3cbec;
-    --COLOR-FIVE: #c5ebe2;
-    --COLOR-SIX: #7e7cec;
-    --COLOR-SEVEN: #333333;
-}
-
-.green-mode {
-    --COLOR-ONE: #80e25a;
-    --COLOR-TWO: #44865d;
-    --COLOR-THREE: #79b47e;
-    --COLOR-FOUR: #17e44b;
-    --COLOR-FIVE: #58975b;
-    --COLOR-SIX: #6ac57e;
-    --COLOR-SEVEN: #17a71e;
-}
 
 
 /* --- FONT PALETTE |||  */
@@ -138,7 +99,6 @@ img {
 :root {
     /* FOR HEADINGS */
     --FONT-ONE: 'Playfair Display', serif;
-    
     --FONT-TWO: 'Alex Brush', cursive;
     --FONT-THREE: Arial, sans-serif;
     --FONT-FOUR: 'Norican', cursive;
@@ -424,7 +384,7 @@ nav h1 {
     font-size: 45px;
     font-family: var(--FONT-TWO);
     color: var(--COLOR-TWO);
-    
+
     text-align: center;
 
     padding: 20px 0 0 0;
@@ -471,7 +431,7 @@ iframe {
 @media (min-width: 600px) {
 
     .section2 p {
-        font-size: 20px; 
+        font-size: 20px;
         text-shadow: 1px 1px var(--COLOR-SEVEn)
     }
 
@@ -515,28 +475,31 @@ iframe {
     iframe {
         width: 65%;
     }
+}
 
-    @media (min-width: 960px) {
+@media (min-width: 960px) {
 
-        .section2 {
-            padding-bottom: 50px;
-        }
+    .section2 {
+        padding-bottom: 50px;
+    }
 
-        .headingmainS2 {
-            font-size: 90px;
-        }
+    .headingmainS2 {
+        font-size: 90px;
+    }
 
-        .headingSection2 {
-            padding-top: 20px;
+    .headingSection2 {
+        padding-top: 20px;
 
-        }
+    }
 
-        .row2a {
-            width: 65%;
-            margin: 0 auto;
-        }
+    .row2a {
+        width: 65%;
+        margin: 0 auto;
     }
 }
+
+
+
 
 /* SECTION 3 - 'New Music and Releases' - WHAT WAS MINE */
 
@@ -544,7 +507,7 @@ iframe {
 
 .section3 {
     height: auto;
-   
+
     background: linear-gradient(-45deg, var(--COLOR-FIVE), var(--COLOR-EIGHT));
     /* background-color: var(--COLOR-TWO); */
     /* background-image: url('images/city/__beautiful-hand-draw-city-skyline-sketch_1035-20293.avif'); */
@@ -563,8 +526,8 @@ iframe {
     background-position: center;
     z-index: -1;
     inset: 0;
-   
-    
+
+
     opacity: 0.2;
 }
 
@@ -572,7 +535,7 @@ iframe {
     font-size: 45px;
     font-family: var(--FONT-TWO);
     color: var(--COLOR-TWO);
-    
+
     text-align: center;
 
     padding: 20px 0 0 0;
@@ -623,10 +586,10 @@ iframe {
 /* Media Queries */
 
 @media (min-width: 600px) {
-     /* Styles for screens wider than 600px */
+    /* Styles for screens wider than 600px */
 
     .section3 p {
-        font-size: 20px; 
+        font-size: 20px;
         text-shadow: 1px 1px var(--COLOR-SEVEn)
     }
 
@@ -724,7 +687,7 @@ iframe {
     font-size: 45px;
     font-family: var(--FONT-TWO);
     color: var(--COLOR-TWO);
-    
+
     text-align: center;
 
     padding: 20px 0 0 0;
@@ -771,7 +734,7 @@ iframe {
 @media (min-width: 600px) {
 
     .section4 p {
-        font-size: 20px; 
+        font-size: 20px;
         text-shadow: 1px 1px var(--COLOR-SEVEn)
     }
 
@@ -874,7 +837,7 @@ iframe {
     opacity: 0.81;
     padding: 70px 50px 40px;
     color: var(--COLOR-TWO);
-  
+
     font-family: var(--FONT-ONE), sans-serif;
     text-align: center;
 }
@@ -957,7 +920,7 @@ iframe {
     background-position: center;
     z-index: -1;
     inset: 0;
-    
+
     opacity: 0.1;
 }
 
